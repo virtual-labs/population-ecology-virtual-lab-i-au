@@ -1,0 +1,96 @@
+/*
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+*/
+
+
+.clr {
+	clear:both;
+	padding:0px;
+	margin:0px;
+}
+	
+.tabItemTitle {
+	padding: 5px 0px 0px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*font-weight: 500;*/
+	color: #626262;
+	/*padding-top: 5px;*/
+	text-align:left !important
+}
+
+.inputTxtArea {
+	margin: 3px 0px 3px 70px;
+	color: #888888;
+	font-size:11px;
+	width:70px;
+	height:15px;
+	border:solid 1px #000000;
+
+}
+
+.submitBtn {
+	width: 80px;
+	height: 20px;
+	margin: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	float:left;
+	/*padding-top: 2px;*/
+	padding-bottom: 2px;
+}
+
+#tooltip {
+	height: 25px;
+	width: auto;
+	margin: 15px;
+	position: absolute;
+	left: 250px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 12px;
+}
+
+#label {
+	background:#FFC;
+	border:solid 1px #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*padding: 2px;*/
+}
+
+.legendLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 3px;
+}
+
+.legendColorBox {
+	padding-bottom: 5px;
+}
+
+#top {
+	padding-top: 3px;
+}
+
+.tabscontent p {
+	overflow:visible;
+}
+
+#bottomPanel{
+	background: rgb(236,226,225); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjZTJlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2Y4ZjhmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  rgba(236,226,225,1) 0%, rgba(248,248,248,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,226,225,1)), color-stop(99%,rgba(248,248,248,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(236,226,225,1) 0%,rgba(248,248,248,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(236,226,225,1) 0%,rgba(248,248,248,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(236,226,225,1) 0%,rgba(248,248,248,1) 99%); /* IE10+ */
+	background: linear-gradient(top,  rgba(236,226,225,1) 0%,rgba(248,248,248,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece2e1', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-8 */
+}
