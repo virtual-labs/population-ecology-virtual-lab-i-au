@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Stagestructured_LeslieMatrixnew.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_DESCRIPTION2">
+        <source>T= Generation time[Σxmxlx\lxmx/R0]     
+r  =  Rate of growth    Log(R0/T)  
+R =Basic reproductive rate  [Exp(r)]  
+R0 =Rate of growth per generation                           Σ(lxmx)                                                  t=time in years                                                                    </source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

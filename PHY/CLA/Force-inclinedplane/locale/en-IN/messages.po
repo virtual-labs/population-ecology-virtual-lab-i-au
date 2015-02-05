@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2014-08-18 11:13+0530\n"
+"PO-Revision-Date: 2014-08-18 11:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simcontrols.js:10
+msgid "Angle:"
+msgstr "Angle:"
+
+#: simcontrols.js:10
+msgid "Hanging Weight:"
+msgstr "Hanging Weight:"
+
+#: simcontrols.js:10
+msgid "Show Scale"
+msgstr "Show Scale"
+
+#: simcontrols.js:10
+msgid "Reset"
+msgstr "Reset"
+
+#: simcontrols.js:10
+msgid "Mass of roller, m = 10 g"
+msgstr "Mass of roller, m = 10 g"
+
+#: simcontrols.js:10
+msgid "Hide Scale"
+msgstr "Hide Scale"
+
+#~ msgid "0&deg;"
+#~ msgstr "0&deg;"
+
+#~ msgid "Click and drag the dropper to add Conc.HCl to the test tube."
+#~ msgstr "क्लिक करें और टेस्ट ट्यूब को सान्द्र.एचसीएल जोड़ने के लिए ड्रॉपर खींचें."
+
+#~ msgid "Click and drag the bottle to add water to the test tube."
+#~ msgstr "टेस्ट ट्यूब करने के लिए पानी जोड़ने के लिए बोतल क्लिक करें और खींचें."
+
+#~ msgid "Arhar dal"
+#~ msgstr "अरहर की दाल"
+
+#~ msgid "Turmeric powder"
+#~ msgstr "हल्दी पाउडर"
+
+#~ msgid "Jaggery"
+#~ msgstr "गुड़"
+
+#~ msgid "Ice cream"
+#~ msgstr "आइसक्रीम"
+
+#~ msgid "Conc. HCl"
+#~ msgstr "सान्द्र. एचसीएल"
+
+#~ msgid "Distilled water"
+#~ msgstr "आसुत जल"
+
+#~ msgid "1 hour"
+#~ msgstr "1 घंटा"
+
+#~ msgid "Select the food sample:"
+#~ msgstr "खाद्य पदार्थ के नमूने का चयन करें:"
+
+#~ msgid "Presence of metanil yellow:"
+#~ msgstr "Metanil पीले रंग की उपस्थिति:"
+
+#~ msgid "Yes"
+#~ msgstr "हां"
+
+#~ msgid "No"
+#~ msgstr "नहीं"
+
+#~ msgid "Detection of Adulterant in Dal"
+#~ msgstr "दाल में मिलावट की जांच"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "फुल स्क्रीन"
+
+#~ msgid "EXIT"
+#~ msgstr "बाहर निकलें"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "आईटी विभाग से अनुसंधान अनुदान के तहत सीडैक <br> मुंबई और अमृता विश्वविद्यालय द्वारा "
+#~ "विकसित"
+
+#~ msgid "Ice cream:"
+#~ msgstr "Ice cream:"
+
+#~ msgid "Arhar dal:"
+#~ msgstr "Arhar dal:"
+
+#~ msgid "Newton's Third Law of Motion"
+#~ msgstr "Troisième loi du mouvement de Newton "
+
+#~ msgid "Variables"
+#~ msgstr "Variables"
+
+#~ msgid "Acting force (N): "
+#~ msgstr "Force agissante (N):"
+
+#~ msgid "Pressure Exerted by a Solid Iron Cuboid on Sand"
+#~ msgstr "Pressure Exerted by a Solid Iron Cuboid on Sand"
+
+#~ msgid "Select the environment:"
+#~ msgstr "Select the environment:"
+
+#~ msgid "Earth (g=9.8 m/s&#178;)"
+#~ msgstr "Earth (g=9.8 m/s&#178;)"
+
+#~ msgid "Moon (g=1.6 m/s&#178;)"
+#~ msgstr "Moon (g=1.6 m/s&#178;)"
+
+#~ msgid "Tray Cross Section"
+#~ msgstr "Tray Cross Section"
+
+#~ msgid "Enter the values:"
+#~ msgstr "Enter the values:"
+
+#~ msgid "Area (m&#178;):"
+#~ msgstr "Area (m&#178;):"
+
+#~ msgid "Pressure (Nm&#8315;&#178;):"
+#~ msgstr "Pressure (Nm&#8315;&#178;):"
+
+#~ msgid "Depression (cm):"
+#~ msgstr "Depression (cm):"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Click the cuboid to place it on the tray."
+#~ msgstr "Click the cuboid to place it on the tray."
+
+#~ msgid "Click on the face of the cuboid to remove it from the tray."
+#~ msgstr "Click on the face of the cuboid to remove it from the tray."
+
+#~ msgid "Cuboid Face: "
+#~ msgstr "Cuboid Face: "
+
+#~ msgid "Length: "
+#~ msgstr "Length: "
+
+#~ msgid "Breadth: "
+#~ msgstr "Breadth: "
+
+#~ msgid "Mass: "
+#~ msgstr "Mass: "
+
+#~ msgid "Force: "
+#~ msgstr "Force: "
+
+#~ msgid "Please enter all values!"
+#~ msgstr "Please enter all values!"
+
+#~ msgid "Sorry.. try again!!!"
+#~ msgstr "Sorry.. try again!!!"
+
+#~ msgid "Correct."
+#~ msgstr "Correct."
+
+#~ msgid "HELP"
+#~ msgstr "HELP"
+
+#~ msgid "Velocity of a Pulse Propagated Through a Slinky"
+#~ msgstr "एक स्लिंकी के माध्यम से प्रचारित एक पल्स का वेग"
+
+#~ msgid "Transverse"
+#~ msgstr "आड़ा"
+
+#~ msgid "Longitudinal"
+#~ msgstr "देशांतरीय"
+
+#~ msgid "Select wave type:"
+#~ msgstr "लहर प्रकार का चयन करें:"
+
+#~ msgid "Slinky length:&nbsp;"
+#~ msgstr "स्लिंकी  लंबाई:&nbsp;"
+
+#~ msgid "Pulse Speed:&nbsp;"
+#~ msgstr "पल्स स्पीड:&nbsp;"
+
+#~ msgid "&nbsp;m"
+#~ msgstr "&nbsp;मी"
+
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Stop"
+#~ msgstr "रोक"
+
+#~ msgid "min  &nbsp;s&nbsp;&nbsp;&nbsp;ms"
+#~ msgstr "मिन  &nbspसे&nbsp;&nbsp;मि.से"
+
+#~ msgid "START"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "STOP"
+#~ msgstr "बंद करो"
+
+#~ msgid "Select the wave type."
+#~ msgstr "लहर प्रकार का चयन करें."
+
+#~ msgid "Change the length of the slinky"
+#~ msgstr "स्लिंकी की लंबाई को बदलने"
+
+#~ msgid "Change the pulse speed."
+#~ msgstr "नाड़ी गति बदलें."
+
+#~ msgid "Click here to start the experiment."
+#~ msgstr "प्रयोग शुरू करने के लिए यहां क्लिक करें."
+
+#~ msgid "Click here to start timer."
+#~ msgstr "घड़ी शुरू करने के लिए यहां क्लिक करें."
+
+#~ msgid "Click here to stop the experiment."
+#~ msgstr "प्रयोग बंद करने के लिए यहां क्लिक करें."
+
+#~ msgid "m"
+#~ msgstr "एम"
+
+#~ msgid "00:00:000"
+#~ msgstr "00:00:000"
+
+#~ msgid "Solubility </br>&nbsp;in Water"
+#~ msgstr "जल में  </br> घुलनशीलता"
+
+#~ msgid "Odour"
+#~ msgstr "गंध"
+
+#~ msgid "Effect on </br> &nbsp;&nbsp;Litmus"
+#~ msgstr "लिटमस पर प्रभाव"
+
+#~ msgid "&nbsp; &nbsp;&nbsp;Reaction  <br />with NaHCO<sub>3</sub>"
+#~ msgstr "&nbsp; &nbsp;&nbsp;NaHCO3 साथ रिएक्शन"
+
+#~ msgid "Acetic Acid"
+#~ msgstr "एसिटिक एसिड"
+
+#~ msgid "Litmus paper"
+#~ msgstr "लिटमस पेपर"
+
+#~ msgid "Water"
+#~ msgstr "पानी"
+
+#~ msgid "Properties of Acetic Acid (Ethanoic Acid)"
+#~ msgstr "एसिटिक एसिड के गुण (इथेनोइक एसिड)"
+
+#~ msgid ""
+#~ "Drag the test tube to pour acetic acid into<br/> the test tube containing "
+#~ "water."
+#~ msgstr "पानी युक्त परखनली में एसिटिक एसिड डालना टेस्ट ट्यूब खींचें."
+
+#~ msgid "Drag the dropper to pick the acetic acid."
+#~ msgstr "एसिटिक एसिड लेने के लिए ड्रॉपर खींचें."
+
+#~ msgid "Drag the dropper again to drop it on the litmus paper."
+#~ msgstr "लिटमस पेपर पर ड्रॉप करने के लिए फिर से ड्रॉपर खींचें."
+
+#~ msgid "Drag the flask to pour acetic acid into the  <br/> thistle funnel."
+#~ msgstr "थीस्ल कीप में एसिटिक एसिड डालना कुप्पी खींचें."
+
+#~ msgid "A homogeneous solution is formed."
+#~ msgstr "एक सजातीय समाधान का गठन किया है."
+
+#~ msgid "You get an irritating pungent smell."
+#~ msgstr "आप एक चिड़चिड़ी तीखी गंध मिलता है."
+
+#~ msgid "Blue litmus turns red."
+#~ msgstr "ब्लू लिटमस लाल हो जाता है."
+
+#~ msgid ""
+#~ "When acetic acid reacts with <br/> sodium bicarbonate, CO<sub>2</sub>  "
+#~ "gas is evolved and that turns the lime water milky."
+#~ msgstr ""
+#~ ".- एसिटिक एसिड सोडियम बाइकार्बोनेट के साथ प्रतिक्रिया करता है, जब सीओ<sub>2</"
+#~ "sub> गैस विकसित और है कि नींबू पानी दूधिया हो जाता है."
+
+#~ msgid "Solution Controls"
+#~ msgstr "समाधान नियंत्रण"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "गुरुत्वाकर्षण जन (ग्राम में):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "वस्तु का द्रव्यमान, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "खंड (मीटर में):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "घनत्व (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1घन सेंटीमीटर=1ml"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Temperature:"
+#~ msgstr "Temperature:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid "Temperature : "
+#~ msgstr "Temperature : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."

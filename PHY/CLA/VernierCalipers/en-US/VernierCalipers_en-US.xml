@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="VernierCalipers.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ANSWER">
+        <source>Answer</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_BEAKER">
+        <source>Beaker</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_BLOCK">
+        <source>Iron Block</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_BREADTH">
+        <source>Breadth</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CHECK">
+        <source>Check</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CORRECT">
+        <source>Good.. Correct </source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CYLINDER">
+        <source>Cylinder</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_DEPTH">
+        <source>Depth</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_DIAMETER">
+        <source>Diameter</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_EMPTY">
+        <source>Input Box Empty !</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_ENTER">
+        <source>Enter Reading (cm) :</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INTERNAL DIAMETER">
+        <source>Internal Diameter</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_LENGTH">
+        <source>Length</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_MEASURE">
+        <source>Select what to measure :</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_NO OBJECT">
+        <source>No Object Selected !!</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_OBJECT">
+        <source>Select an Object :  </source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_SELECTED OBJECT">
+        <source>Selected Object :  </source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_SPHERE">
+        <source>Sphere</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_THICKNESS">
+        <source>Thickness</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_TRY">
+        <source>Try again !</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
