@@ -6,8 +6,8 @@ header('Cache-Control: post-check=0, pre-check=0', false);
 header('Pragma: no-cache');
 header("Modified-by: Amrita VL ",true);
 /////////
-include('../vl_config.php');
-include('templateConfig.php');
+include('..\lib\vl_config.php');
+include('..\lib\templateConfig.php');
 ini_set('display_errors', 0);
 //get the parent url
 $parentUrl= $_SERVER['HTTP_REFERER'];
@@ -88,49 +88,39 @@ $sub=$_GET['sub'];
 $temp_id=$_GET['tempId'];
 $exp_name=$_GET['exp'];
 ////////////////////////////////
+
 if($sub==""){
 $sub="BIO";
-$cat="POE";
+$cat="lab";
 $exp_name=$_GET["exp_name"];
-$temp_id='vlab';
 }
+$temp_id='vlab';
 ///////////////
 //$sim_id='../POE/Spread_Pest_Population_invasion';
 $sim_id="../".$cat."/".$exp_name;
 /////////////////
 ////////////
+
 $sim_file=$sim_id.'/html5.php';
-$temp_dir='template/';
+
+$temp_dir='../lib/template/';
+
 ////////////
 ////////////////
 $sim_title="";
 $comp_name="Amrita Virtual Lab";
 ///////////
-if($temp_id=='olab'){
-	$copy_name="Developed by CDAC Mumbai & Amrita University<br/>Under research grant from department of IT";
-}
-else if($temp_id=='olab_ot'){
-	$simTempSave=$olabSaveArray[$currentLang];
-	$simTempFullScreen=$olabFullScrnArray[$currentLang];
-	$simTempExit=$olabExitArray[$currentLang];
-	$copy_name=$olabCpyRightArray[$currentLang];
-}
-else if($temp_id=='vlab'){
-	$copy_name="Copyright &copy; Amrita University 2009 - ". date("Y");
-}else if($temp_id=='olab_ot_rt')
-{	$simTempSave=$olabSaveArray[$currentLang];
-	$simTempFullScreen=$olabFullScrnArray[$currentLang];
-	$simTempExit=$olabExitArray[$currentLang];
-	$copy_name=$olabCpyRightArray[$currentLang];
-}
+$copy_name="Copyright &copy; Amrita University 2009 - ". date("Y");
+
 
 ////////
 ///////////////
 
-include("functions.php");
+include("../lib/functions.php");
 /////
 getHeader();
 ///////////
+
 include("$sim_file");
 ////////////
 getFooter();
