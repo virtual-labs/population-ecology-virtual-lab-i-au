@@ -6,8 +6,8 @@ header('Cache-Control: post-check=0, pre-check=0', false);
 header('Pragma: no-cache');
 header("Modified-by: Amrita VL ",true);
 /////////
-include('..\lib\vl_config.php');
-include('..\lib\templateConfig.php');
+include('vl_config.php');
+include('templateConfig.php');
 ini_set('display_errors', 0);
 //get the parent url
 $parentUrl= $_SERVER['HTTP_REFERER'];
@@ -86,13 +86,13 @@ if(AUTHENTICATION_STATUS=='OFF')
 $cat=$_GET['cat'];
 $sub=$_GET['sub'];
 $temp_id=$_GET['tempId'];
-$exp_name=$_GET['exp'];
+//$exp_name=$_GET['exp'];
 ////////////////////////////////
 
 if($sub==""){
 $sub="BIO";
 $cat="lab";
-$exp_name=$_GET["exp_name"];
+$exp_name=$_GET["exp_id"];
 }
 $temp_id='vlab';
 ///////////////
@@ -116,7 +116,7 @@ $copy_name="Copyright &copy; Amrita University 2009 - ". date("Y");
 ////////
 ///////////////
 
-include("../lib/functions.php");
+include("functions.php");
 /////
 getHeader();
 ///////////
