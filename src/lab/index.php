@@ -103,7 +103,7 @@ $sim_id="../".$cat."/".$exp_name;
 
 $sim_file=$sim_id.'/html5.php';
 
-$temp_dir='../lib/template/';
+$temp_dir='template/';
 
 ////////////
 ////////////////
