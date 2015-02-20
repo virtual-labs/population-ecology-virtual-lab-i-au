@@ -20,19 +20,34 @@
             "developer": [
                 {
                     "contact": {
-                        "alternate_email": "sreejithsr@balavidya.com", 
+                        "alternate_email": "", 
+                        "email": "rathishg@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita", 
+                    "name": "Rathish G", 
+                    "organization": "", 
+                    "role": "Project Manager", 
+                    "title": "", 
+                    "web": ""
+                }, 
+				{
+                    "contact": {
+                        "alternate_email": "", 
                         "email": "sreejithsr@am.amrita.edu", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
-                    "institute": "CREATE@Amrita", 
+                    "department": "CREATE", 
+                    "institute": "Amrita", 
                     "name": "Sreejith S R", 
                     "organization": "", 
-                    "role": "Project Leader", 
+                    "role": "Lab Developer", 
                     "title": "", 
                     "web": ""
-                }, 
+                },
                 {
                     "contact": {
                         "alternate_email": "", 
@@ -40,8 +55,8 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
-                    "institute": "CREATE@Amrita", 
+                    "department": "CREATE", 
+                    "institute": "Amrita", 
                     "name": "Praveen S", 
                     "organization": "", 
                     "role": "Lab Developer", 
@@ -55,8 +70,8 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
-                    "institute": "CREATE@Amrita", 
+                    "department": "CREATE", 
+                    "institute": "Amrita", 
                     "name": "Sruthi Mangala", 
                     "organization": "", 
                     "role": "Lab Developer", 
@@ -70,8 +85,8 @@
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
-                    "department": "", 
-                    "institute": "CREATE@Amrita", 
+                    "department": "CREATE", 
+                    "institute": "Amrita", 
                     "name": "Anitha B", 
                     "organization": "", 
                     "role": "Lab Developer", 
