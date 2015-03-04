@@ -1,0 +1,124 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Interspecific Competition and Geographic Distributions.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ABH">
+        <source>abh of sp1:</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AHB">
+        <source>ahb of sp2:</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_CAPACITY">
+        <source>Plot Carrying capacity</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_CAPACITY_TITLE">
+        <source>Carrying capacity of each species </source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CAPACITY_XAXIS">
+        <source>Environmental gradient(x)</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CAPACITY_YAXIS">
+        <source>Carrying capacity</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CARRYING_CAPACITY">
+        <source>Carrying capacity</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_CARRYING_CAPACITY1">
+        <source>Carrying capacity of Species 1</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_CARRYING_CAPACITY2">
+        <source>Carrying capacity of Species 2</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_COMPETITION_COEFICIENT">
+        <source>Competition coeficient alpha</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DENSITY">
+        <source>Plot Density</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DENSITY_TITLE">
+        <source>Population growth of Species </source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DENSITY_XAXIS">
+        <source>Environmental gradient(x) </source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DENSITY_YAXIS">
+        <source>Density of each species </source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_EASTERN">
+        <source>Plot Eastern border</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EASTERN_BORDER">
+        <source>Geographical eastern border</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_END">
+        <source>Ending value:  </source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_FRACTION">
+        <source>Fraction:</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_GRADIENT">
+        <source>Position along the gradient(x)</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_GRAPH_TITLE">
+        <source>Plotting Environmental gradient Vs ratio of K-Species1/K-Species2 for eastern border</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_MEASUREMENTS">
+        <source>Controls</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_POPULATION_GROWTH1">
+        <source>Population of growth of Species1 </source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_POPULATION_GROWTH2">
+        <source>Population of growth of Species2</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_START">
+        <source>Starting value: </source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TITLE">
+        <source>Interspecific Competition and Geographic Distributions</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_VARIABLES">
+        <source>Variables</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_WESTERN">
+        <source>Plot western border </source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_WESTERN_BORDER">
+        <source>Geographical western border</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_WESTERN_TITLE">
+        <source>Plotting Environmental gradient Vs ratio of K-Species1/K-Species2 for western border</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_WESTERN_XAXIS">
+        <source>Environmental gradient(x) </source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_WESTERN_YAXIS">
+        <source>Ratio of K-Species1/K-Species2</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_XAXIS">
+        <source>Environmental gradient(x)</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_YAXIS">
+        <source>Ratio of K-Species1/K-Species2</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

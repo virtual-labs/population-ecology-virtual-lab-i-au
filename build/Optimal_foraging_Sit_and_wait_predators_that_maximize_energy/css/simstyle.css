@@ -1,0 +1,42 @@
+/*
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+*/
+
+
+.tabscontent {
+	padding:0px 0px 0px 0px !important;
+}
+
+.varTitle{
+	padding: 1px 0 0 10px !important;
+	font-size:11px;
+}
+.tabbed {
+	display:block;
+	width:198px;
+}
+.mainTitle p{
+	font-size:17px !important;
+	margin-top:10px !important;
+	padding:0px 0px 3px 0px !important;
+	width:500px !important;
+	letter-spacing:0px !important;
+	font-weight:bold !important;
+	
+}
+.rangeSlider {
+	margin: 0px 0px 0px 30px !important;
+	font-size: 8px !important;
+}
+.rangeVals .maxrange {
+	font-size: 9px !important;
+	
+}
+.rangeVals .minrange {
+	font-size: 9px !important;
+}
