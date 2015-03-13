@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Computer Science & Engineering"
+                "Biotechnology"
             ], 
-            "id": "cse02", 
+            "id": "poe", 
             "integration_level": 5, 
-            "name": "Computer Programming", 
+            "name": "Population ecology Virtual Lab I", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
@@ -126,8 +126,8 @@
                     "stop": []
                 }, 
                 "memory": {
-                    "max_required": "2gb", 
-                    "min_required": "256mb"
+                    "max_required": "4gb", 
+                    "min_required": "2gb"
                 }, 
                 "os": "ubuntu", 
                 "osVersion": "12", 

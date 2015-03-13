@@ -1,0 +1,665 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit --><!DOCTYPE html>
+<html><head></head><body>
+<div id="experiment"> <!-- The Experiment Document Container-->
+<!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+<header class="default" id="experiment-header">
+<div class="logo" id="experiment-header-logo">
+<!-- Enclose the logo image of your lab or write it in 
+      text-->
+<img src="../images/logo.jpg"/>
+</div>
+<div class="heading" id="experiment-header-heading">
+<!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+<a href="../index.html">Population ecology Virtual Lab I</a>
+</div>
+<!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+</header>
+<!-- The lab article is the main content area where all the 
+  experiment content sits-->
+<article id="experiment-article">
+<!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+<div class="breadcrumb" id="experiment-article-breadcrumb">
+</div>
+<header class="heading" id="experiment-article-heading">Interspecific Competition and Coexistence</header>
+<!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+<nav class="default" id="experiment-article-navigation">
+<ul id="experiment-article-navigation-menu">
+<!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+</ul>
+</nav>
+<!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+<div id="experiment-article-sections">
+<!-- First section of the article-->
+
+<!-- Second section of the article-->
+
+<section id="experiment-article-section-3">
+<div class="icon" id="experiment-article-section-3-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/objective.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-3-heading">
+          Theory
+</div>
+<div class="content" id="experiment-article-section-3-content"><div class="divContent"><h1>Objectives</h1>
+<p>&nbsp;</p>
+<p>This exercise addresses questions like:</p>
+<p>&nbsp;</p>
+<p>1)&nbsp;&nbsp;&nbsp; How two different species compete for a food resource, if their food resources are overlapped? And how can be these dynamics incorporated into a simulator using mathematically defined equations?</p>
+<p>&nbsp;</p>
+<p>2)&nbsp;&nbsp;&nbsp; And how they coexist in the same habitat even if competition seems to exist all the time?</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Major focus in community ecology is about understanding the factors underlying species coexistence (Carrete et al). When dealing with competition between native and exotic species, the competitive exclusion of the ‘weaker’ species can have consequences for biodiversity conservation (Carrete et al). It is important to know whether this kind of interaction between species leads to exclusion of one species or results in their co-existence (Sommer &amp; Worm, 2002). Food resources are always limited and maintained below the carrying capacity of the surrounding environment to avoid the population exploitation. Species living in the same habitat would have a problem of overlap in their food resources due to their limited availability. When this happens, the two species compete and tries to drive the other species away. This does not mean that the other species cannot survive in that habitat; it can exist by developing certain adaptive features. A detailed research is conducted on inter-specific competition and coexistence by Morrison, 2002 on three species, namely Caenobita clypeatus (Herbst), Brachymyrmex obscurior Forel and Dorymyrmex pyramicus Roger. Out of these three species, B. obscurior Forel and D. pyramicus Roger are two different ant species and C. clypeatus is a Hermit Crab. This inter-specific competition is between these three species, wherein either of the ant species interacts with the crab but not both.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">The available food resources for them are majorly overlapped, considering the fact that all these three species are generalist scavengers. So, competition between these species develops for the limited food resources. The studies were done for four years and it was noted that C. clypeatus is good in recognizing its food source very quickly while the B. obscurior recognizes the food source rather slowly. So, C. clypeatus has advantage of getting to its food source earlier than the B. obscurior. However, it so happens that B. obscurior finally would be successful in having the food source. The reason is that once B. obscurior identified the source, it assists several workers along with it so that they can defeat any other species coming for the food source. These workers are generally aggressive and start attacking the other species near to the food sources. Considering the above fact, it becomes obvious that C. clypeatus would be successful in reaching first to its food source but would be driven from the source once B. obscurior identifies the source. The data plots obtained from the experiments done on these species were shown in Fig. 1 (taken from Morrison, 2002). From the figure you can observe that in initial stages, C. clypeatus number reaching to its baits is maximum, but then dominated by the B. obscurior in later stages.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p>The other ant species D. pyramicus is also the competitor to C. clypeatus but this is not as successful as B. obscurior. It’s mainly because unlike B. obscurior D.pyramicus does not assist workers along with it and when contradicted with C. clypeatus, it can be easily driven off. But still D. pyramicus has the ability to locate the food source at the earliest like C. clypeatus but could not drive off the other competitors like B. obscurior.</p>
+<p>&nbsp;</p>
+<p>Mathematically to model such a process requires classic Lotka-Volterra equations. The negative effect created by one species on another could be shown by adding an extra term in the original equation. The Lotka-Volterra equation takes the form as:</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img  src="userfiles/eq1.png" align="middle" style="width:250px; height:60px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Mathematically to model such a process requires classic Lotka-Volterra equations. The negative effect created by one species on another could be shown by adding an extra term in the original equation. The Lotka-Volterra equation takes the form as:</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img  src="userfiles/eq2.png" align="middle" style="width:300px; height:70px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Where, r<sub>m(1)</sub> is the maximum rate of growth per individual for species 1,</p>
+<p style="text-align: left;">N1 is the number of individuals of species 1,</p>
+<p style="text-align: left;">K1 is the carrying capacity of the species 1,</p>
+<p style="text-align: left;"><img  src="userfiles/theta.png" align="middle" style="width:20px; height:30px;padding: 0px! important;
+  vertical-align: middle;">1 is the spatial abundance of the species 1,</p>
+<p style="text-align: left;">N2 is the number of individuals of species 2,</p>
+<p style="text-align: left;">α<sub>12</sub> is the effect of an individual of species 2 on an individual of species 1</p>
+<p style="text-align: left;">Likewise, for the species 2, the equation is used as,</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img t src="userfiles/eq3.png" align="middle" style="width:300px; height:70px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Where, r<sub>m(2)</sub> is the maximum rate of growth per individual for species 2,</p>
+<p style="text-align: left;">N2 is the number of individuals of species 2,</p>
+<p style="text-align: left;">K2 is the carrying capacity of the species 2,</p>
+<p style="text-align: left;"><img  align="middle" src="userfiles/theta.png" align="middle" style="width:20px; height:20px; padding: 0px! important;
+  vertical-align: middle;">2 is the spatial abundance of the species 2,</p>
+<p style="text-align: left;">N1 is the number of individuals of species 1,</p>
+<p style="text-align: left;">α<sub>21</sub> is the effect of an individual of species 1 on an individual of species 2</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">The above equations defined show the growth rate of the individuals for two different species (species 1 and species 2).</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: justify;">If the competition between these species happens in the above mentioned manner, how were they able to coexist in the same geographical location? The ability to their coexistence depends on their developed adaptive features which are distinct to each other. C. clypeatus and D. pyramidus were good in locating their food source at the earliest so they get to the source earlier. On the other hand, B. obscurior recognizes its source rather slowly but once identified, it behaves aggressively towards its competitors and drives them off.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: justify;">As there is time delay for B. obscurior to recognize its source, C. clypeatus and D. pyramidus has an advantage to have the food sources before it reaches. While D. pyramidus does not recruit workers along with it, its chances to defend itself from the competitors are rather difficult. Likewise, these different species exist on the same geographical location and compete for the available food sources.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/plots%281%29.png" style="width: 594px; height: 248px;" alt=""></p>
+<p style="text-align: left;"><span style="color: rgb(192, 192, 192);">(Adapted from Morrison, 2002)</span></p>
+<p style="text-align: left;">Figure 1. Statistical plots showing the varying dynamics with respect to time between the two species C. clypeatus and B. obscurior.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p></div></div>
+</section>
+<section id="experiment-article-section-5">
+<div class="icon" id="experiment-article-section-5-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-5-heading">
+          Procedure
+        </div>
+<div class="content" id="experiment-article-section-5-content"><div class="divContent">
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Main_Simulator_Window%281%29.png" style="width: 593px; height: 334px;" alt=""></p>
+<p style="text-align: left;">&nbsp;</p>
+<h2>User Instructions:</h2>
+<p>&nbsp;</p>
+<p>The simulator consists of three regions, Input Variables Menu, Simulation control buttons and Result display window.&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Input Variables Menu:</h2>
+<p>&nbsp;</p>
+<p>Input variables menu section contains two sub tabs: Parameters for Species 1 and Parameters for Species 2. The user can change the values according to his/her choice and observe the changes in the result display window. Below shown is for the Species 1.&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Variables_1_Window.png" style="width: 158px; height: 288px;" alt=""></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">The user can change Initial Population, Rate of growth, Carrying capacity, Theta value, Alpha value, Number of steps and step size according to his/her choice for species 1. The below mentioned screenshot is to change the parameters for the tab “Species 2”.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Variables_2_Window.png" style="width: 153px; height: 284px;" alt=""></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">The user can change Initial Population, Rate of growth, Carrying capacity, Theta value, Alpha value, Number of steps and step size according to his/her choice for Species 2.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2>Simulation Control Buttons:</h2>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/controls.png" style="width: 185px; height: 123px;" alt=""></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">The above controls section contains buttons related to “Step run”, “Run iteration”, “Pause” and “Reset”. The simulation can be started by clicking on “Run iteration” button. The simulation can be paused by clicking on “Pause” and can be re-setted using “Reset” button.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2>Result Display Window:</h2>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Results_Window.png" style="width: 697px; height: 393px;" alt=""></p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Graph_Window.png" style="width: 532px; height: 432px;" alt=""></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Graphical representation of the result shown for the exercise with the parametric values.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+</div></div>
+</section>
+<section id="experiment-article-section-7">
+<div class="icon" id="experiment-article-section-7-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-7-heading"> Self Evaluation</div>
+<div class="content" id="experiment-article-section-7-content"><div class="divContent">
+</ul></div></td><td id="rcurve" height="145px" width="21px"></td></tr><tr><td></td><td></td></tr></tbody></table></div><div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">For two competing species (denoted 1 and 2), the population growth rate of species 1 in the presence of species 2 is.</span></td><td style="padding-right:60px;" height="30px;" valign="top" width="14%"><div style="padding-left:25px;display:none;" id="hintDiv10"><input id="helpUsed10" name="helpUsed10" value="N" type="hidden"><img onclick="javascript:showHint('488',10,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1750" name="ans0" value="1750" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1750">Lower at all population sizes of species 1 than in the absence of species 2.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1751" name="ans0" value="1751" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1751">Zero when the population reaches K.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1752" name="ans0" value="1752" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1752">Dependent on the carrying capacity of species 2.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1753" name="ans0" value="1753" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1753">The same as in the absence of species 2.</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">What is the equilibrium population size of a species in the absence of competitors or predators?</span></td><td style="padding-right:60px;" height="30px;" valign="top" width="14%"><div style="padding-left:25px;display:none;" id="hintDiv11"><input id="helpUsed11" name="helpUsed11" value="N" type="hidden"><img onclick="javascript:showHint('489',11,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1754" name="ans1" value="1754" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1754">All of these</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1755" name="ans1" value="1755" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1755">The population at which the per capita growth rate = 0.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1756" name="ans1" value="1756" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1756">K</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1757" name="ans1" value="1757" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1757">The maximum population size the environment can sustain.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1758" name="ans1" value="1758" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1758">The population size at which dn/dt=0 (where N refers to the population size).</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">When is competitive exclusion  likely to occur?</span></td><td style="padding-right:60px;" height="30px;" valign="top" width="14%"><div style="padding-left:25px;display:none;" id="hintDiv12"><input id="helpUsed12" name="helpUsed12" value="N" type="hidden"><img onclick="javascript:showHint('490',12,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1759" name="ans2" value="1759" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1759">When interspecific competition is more intense than intraspecific competition.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1760" name="ans2" value="1760" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1760">When two species exhibit resource partitioning.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1761" name="ans2" value="1761" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1761">When interspecific competition is less intense than intraspecific competition.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1762" name="ans2" value="1762" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1762">When the inferior competitor has a refuge in the environment.</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">If interspecific competition does not lead to the coexistence and leads to existence of a species, which species has the maximum likely chance to survive described in theory section?</span></td><td style="padding-right:60px;" height="30px;" valign="top" width="14%"><div style="padding-left:25px;display:none;" id="hintDiv13"><input id="helpUsed13" name="helpUsed13" value="N" type="hidden"><img onclick="javascript:showHint('491',13,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1763" name="ans3" value="1763" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1763">Caenobita clypeatus (Herbst).</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1764" name="ans3" value="1764" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1764">Brachymyrmex obscurior Forel.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1765" name="ans3" value="1765" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1765">Dorymyrmex pyramicus Roger.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1766" name="ans3" value="1766" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1766">None of the above.</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">In a given habitat, the maximum chance to win in an interspecific competition is more likely for ________.</span></td><td style="padding-right:60px;" height="30px;" valign="top" width="14%"><div style="padding-left:25px;display:none;" id="hintDiv14"><input id="helpUsed14" name="helpUsed14" value="N" type="hidden"><img onclick="javascript:showHint('492',14,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1767" name="ans4" value="1767" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1767">Aggressive, invasive and not a native origin.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1768" name="ans4" value="1768" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1768">Native,  and not so much aggressive or invasive.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1769" name="ans4" value="1769" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1769">Both aggressive and invasive.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans1770" name="ans4" value="1770" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans1770">None of the above.</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1426138485/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div>
+</div></div>
+</section>
+<section id="experiment-article-section-4">
+<div class="icon" id="experiment-article-section-4-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/simulation.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-4-heading">
+          Simulator
+        </div>
+<div class="content" id="experiment-article-section-4-content"><div class="divContent"><p><a href="../?exp_id=Interspecific_Competition_and_Coexistence" target="_blank">Click here for Simulator</a></p></div></div>
+</section>
+<section id="experiment-article-section-6">
+<div class="icon" id="experiment-article-section-6-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-6-heading">
+          Assignment
+</div>
+<div class="content" id="experiment-article-section-6-content">
+<ol>
+    <li>What are the two different types of species interactions within competition? Explain and give examples of each.&nbsp;</li>
+    <li>Why must interspecific competition (competition between species within a community) be reduced in order for the stable existence of both species? In ways do species reduce the amount of interspecific competition within communities?&nbsp;</li>
+    <li>Consider that there were two coexisting competitors, and for one of the first species ALPHA12 value is given as 2.5. Find out the ALPHA21 value for the second species?&nbsp;</li>
+    <li>Species A and Species B are unable to coexist in culture, Species A always winning out. However, if A and B are put into a new culture with another organism, Species C, all three survive. A study of the system shows that C preys on both A and B. How does the addition of another component to this system allow all to coexist? If you can think of several hypotheses, discuss them all.</li>
+    <li>Which of the following statements is/are true?</li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp;&nbsp;&nbsp; Competition occurs when the niches of two coexisting species are similar.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp;&nbsp; Competition between two species for a resource can result in the exclusion of one of those species.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c.&nbsp;&nbsp;&nbsp;&nbsp; If niche overlap between two species is reduced, the two species can coexist.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; d.&nbsp;&nbsp;&nbsp; All of the above are true.</p>
+<p>&nbsp;</p>
+</div>
+</section>
+<section id="experiment-article-section-8">
+<div class="icon" id="experiment-article-section-8-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-8-heading">
+            Reference
+</div>
+<div class="content" id="experiment-article-section-8-content"><div class="divContent">
+<h1>Books:</h1>
+<p>&nbsp;</p>
+<ol>
+    <li>Theoretical Ecology Principles and Applications (Third Edition). Robert May and Angela McLean, 2007.&nbsp;</li>
+    <li>&nbsp;Ecology From Individuals to Ecosystems (Fourth Edition). Michael Begon, Colin R. Townsend, John L. Harper, 2006.</li>
+</ol>
+<p>&nbsp;</p>
+<h1>Webliography:</h1>
+<p>&nbsp;</p>
+<ol>
+    <li><a target="_blank" href="http://www.jstor.org/pss/3547728">http://www.jstor.org/pss/3547728</a>&nbsp;</li>
+    <li><a target="_blank" href="http://uncoma.academia.edu/SergioALambertucci/Papers/361072/
+    Winners_and_losers_in_human-made_habitats_interspecific_competition_outcomes_in_two_Neotropical_vultures">http://uncoma.academia.edu/SergioALambertucci/Papers/361072/Winners_and_losers_in_human-made_habitats_interspecific_competition_outcomes_in_two_Neotropical_vultures</a></li>
+</ol>
+<p>&nbsp;</p>
+<h1>Chapters:</h1>
+<p>&nbsp;</p>
+<ol>
+    <li><a target="_blank" href="/userfiles/1/file/12_chapter%204.pdf">Chapter on Interspecific Competition.</a></li>
+</ol>
+
+</div></div>
+</section>
+<section id="experiment-article-section-9">
+<div class="icon" id="experiment-article-section-9-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-9-heading">
+            Feedback
+</div>
+<div class="content" id="experiment-article-section-9-content">
+<h1>Feedback - Amrita Vishwa Vidyapeetham Virtual Lab</h1>
+<p>
+</p>
+	<form name="form1" id="form1" method="post">
+        <p>&nbsp;</p>
+        <p>Welcome to the Amrita Vishwa Vidyapeetham Virtual Lab online feedback system. Thanks for taking the time to share your feedback. We'll use the information you provide below to improve our virtual labs.</p>
+        <p>&nbsp;</p>
+        <div><p>* Required</p></div>
+        <p>&nbsp;</p>
+        <p><b>Name of the user</b></p>
+        <div><p><input value="" name="name" id="name" type="text"></p></div>
+        <p>&nbsp;</p>
+        <p><b>Department </b>*</p>
+        <div><p>
+               	<br>
+                <select style="width:252px" name="subjectId" size="1" id="subjectId" disabled="" onchange="comboSubmit('sub_combo');">
+					                        <option selected="" value="3">Biotechnology and Biomedical Engineering</option>
+                                           <option value="2">Chemical Sciences</option>
+                                           <option value="1">Physical Sciences</option>
+                                           <option value="78">Computer Science</option>
+                                           <option value="77">Mechanical Engineering</option>
+                       
+        		</select>
+		         
+        </p></div>
+      <p>&nbsp;</p>
+        <h2>Lab Details</h2>
+        <div><p>
+        			<br>
+                <select style="width:252px" name="topicId" size="1" id="topicId" disabled="" onchange="comboSubmit('topic_combo');">
+       			 				<option value="43">Neurophysiology Virtual Lab (pilot)</option>
+        						<option value="212">Neuron Simulation Virtual Lab (pilot)</option>
+        						<option value="63"> Biochemistry Virtual Lab I</option>
+        						<option value="64"> Biochemistry Virtual Lab II</option>
+        						<option selected="" value="65">Population ecology Virtual Lab I</option>
+        						<option value="67">Population ecology Virtual Lab II</option>
+        						<option value="69"> Immunology Virtual Lab I</option>
+        						<option value="70">Immunology Virtual Lab II</option>
+        						<option value="73">Microbiology Virtual Lab I</option>
+        						<option value="76">Microbiology Virtual Lab II</option>
+        						<option value="77">Molecular Biology Virtual Lab I</option>
+        						<option value="186">Molecular Biology Virtual Lab II</option>
+        						<option value="187">Cell biology Virtual Lab I</option>
+        						<option value="188">Cell biology Virtual Lab II</option>
+        						<option value="278">Biological Image Analysis Virtual Lab</option>
+        						<option value="273">Bioinformatics Virtual Lab I</option>
+        						<option value="274">Bioinformatics Virtual Lab II</option>
+        						<option value="275">Bioinformatics Virtual Lab III</option>
+        						<option value="276">Systems Biology Virtual Lab</option>
+        						<option value="277">Computer-Aided Drug Design Virtual Lab</option>
+        						<option value="272">Ecology Virtual Lab</option>
+        						<option value="257">Bio-inspired Robotics Virtual Labs (Remote Trigger)</option>
+        						<option value="258">Virtual Biophysics Lab (Remote Trigger)</option>
+        		                </select>
+                
+                        </p>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Name of the  Experiment </b>*</p>
+        <div><p>
+               <input value="73" name="subTopicId" id="subTopicId" type="hidden">
+       			<br><select style="width:252px" name="experimentId" size="1" id="experimentId" disabled="">
+       		        <option value="174">Population with Continuous and Discrete Growth</option>
+        	        <option value="180">Spread of a Pest  Population - Population Invasion</option>
+        	        <option value="183">Age Structured Leslie Matrix</option>
+        	        <option value="771">Stage Structured Leslie Matrix</option>
+        	        <option value="772">Metapopulation Dynamics -Levins Model</option>
+        	        <option selected="" value="773">Interspecific Competition and Coexistence</option>
+        	        <option value="1092">Effect of Interspecific Competition on Species Border</option>
+        	        <option value="1110">Logistic Population Growth: Continuous and Discrete</option>
+        	        <option value="1337">Parasitoid-Host Dynamics</option>
+        	        <option value="1451">Conserving an Endangered Species</option>
+        	    
+        </select>
+        
+                 <input name="combo1" id="combo1" type="hidden">   
+        </p></div>
+      <p>&nbsp;</p>
+        <p><b>Type of Experiment</b></p>
+        <div><p><input name="vlType" value="Simulator" id="vlType" type="radio"> Simulator</p>
+        <p><input name="vlType" value="Measurement" id="vlType" type="radio"> Measurement</p>
+        <p><input name="vlType" value="Remote trigger" id="vlType" type="radio"> Remote trigger</p></div>
+        <p>&nbsp;</p>
+        <h2>Please indicate your agreement with the following statements</h2>
+        <p>&nbsp;</p>
+        <div><div style="width:100%">
+            <table border="0">
+                <thead>
+                <tr>
+                    <td width="23%"></td>
+                    <td width="5%"></td>
+                    <td align="center" width="15%">Excellent</td>
+                    <td align="center" width="12%">Very Good</td>
+                    <td align="center" width="10%">Good</td>
+                    <td align="center" width="12%">Average</td>
+                    <td align="center" width="10%">Poor</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">How do you rate the online performance of the experiment?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Excellent" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Very Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Average" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Poor" id="expPerformance" type="radio">
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td align="right">To what extent did you have control over the interactions?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Excellent" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Very Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Average" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Poor" id="interactionCtrl" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">To what degree was the actual lab environment simulated?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Excellent" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Very Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Average" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Poor" id="simulatorCmpr" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Was the measurement and analysis of data easy for you?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Excellent" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Very Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Average" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Poor" id="dataMrmnt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">The manuals were found to be helpful</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Excellent" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Very Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Average" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Poor" id="manuals" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Were the links provided consistent with the objectives of the experiment?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="expObjectives" value="Excellent" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Very Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Average" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Poor" id="expObjectives" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Were the results of the experiment easily interpreted?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Excellent" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Very Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Average" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Poor" id="expResult" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">A clear understanding of the experiment and related topics was gained</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="understandExp" value="Excellent" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Very Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Average" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Poor" id="understandExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>How helpful do you feel the system is?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysHelp" rows="8" cols="75" id="sysHelp"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you experience any problem?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysPblm" rows="8" cols="75" id="sysPblm"></textarea></p></div>
+        <p>&nbsp; </p>
+        <p><b>Is there anything you would like to tell us?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="tellUs" rows="8" cols="75" id="tellUs"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you feel confident enough while performing the experiment?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="confidence" value="Yes" id="confidence" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="confidence" value="No" id="confidence" type="radio"> 
+        No</p></div>
+        <div><p><input name="confidence" value="Can't say" id="confidence" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Was the experiment/process motivating enough?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="expMotivation" value="Yes" id="expMotivation" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="expMotivation" value="No" id="expMotivation" type="radio"> 
+        No</p></div>
+        <div><p><input name="expMotivation" value="Can't say" id="expMotivation" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you go through the manual/ step by step procedure before performing the experiments live?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="stepmethdExp" value="Yes" id="stepmethdExp" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="stepmethdExp" value="No" id="stepmethdExp" type="radio"> 
+        No</p></div>
+        <p>&nbsp;</p>
+        <p><b>Please answer the following</b></p><br>
+        <div style="width:100%;">
+        <div>
+            <table align="left" border="0">
+                <thead>
+                    <tr>
+                        <td width="40%"></td>
+                        <td width="10%"></td>
+                        <td align="center" width="13%">Yes</td>
+                        <td align="center" width="13%">No</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you get the feel of a real lab while performing the experiments virtually?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="Yes" id="actualLab" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="No" id="actualLab" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Did you feel the absence of an instructor?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="instructorAbs" value="Yes" id="instructorAbs" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="instructorAbs" value="No" id="instructorAbs" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Could you run the experiments smoothly, i.e., without interruptions?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="Yes" id="withoutInt" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="No" id="withoutInt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you measure and analyse the data successfully?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="analyzeData" value="Yes" id="analyzeData" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="analyzeData" value="No" id="analyzeData" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you follow the step by step procedure before doing the live experiment?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="Yes" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="No" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you compare your results with the given typical results?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="compareRes" value="Yes" id="compareRes" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="compareRes" value="No" id="compareRes" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Do you think performing experiments through virtual labs were more challenging than the real lab experiments?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="Yes" id="performExp" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="No" id="performExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Specify three problems/difficulties you faced while performing the experiments?</b></p><br>
+        <div><p>
+            <textarea name="threePblms" rows="8" cols="75" id="threePblms"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Describe three interesting things about the experiments.</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <textarea name="threeThings" rows="8" cols="75" id="threeThings"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work?</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <input name="moreScope" value="Yes" id="moreScope" type="radio"> 
+            Yes        </p>
+        <p>
+            <input name="moreScope" value="No" id="moreScope" type="radio"> 
+            No        </p></div>
+        <p>&nbsp;</p>
+        <div><p>
+            <b>Please type in the code shown. </b>*<br>
+            <input name="captcha_code" size="15" class="" type="text"><br>
+            <img id="captcha" src="captcha/captchadisp.php?md5(uniqid(time())); " style="padding-top:8px">
+        </p>
+        <p>
+                </p>
+        <p>&nbsp;</p>
+                <p>
+            <input name="submit1" id="submit1" value="Submit" style="width:10%;" onclick="return checkFeedBack();" type="submit">  
+        </p> 
+        </div>   
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+ 
+
+ </div></section>
+</div>
+</article>
+</div>
+</body></html>

@@ -3,13 +3,13 @@ lib-dir=lib
 build-js-dir=${build-dir}/js
 build-www=/var/www
 
-#theme=blue-icon
+theme=blue-icon
 
 all:  help-dir 
 
 help-dir:
 
-	(touch ${build-dir}/theme-${theme}; rsync -avC --exclude ${mathjax}.zip lab/* lib/* help themes/${theme}/* ${build-dir})
+	(touch ${build-dir}/theme-${theme}; rsync -avC --exclude ${mathjax}.zip lab/* lib help themes/${theme}/* ${build-dir})
 
 local:
 	(touch ${build-www}/theme-${theme}; rsync -avC --exclude ${mathjax}.zip lab/* lib/* help themes/${theme}/* ${build-www};chown -R www-data.www-data ${build-www})
