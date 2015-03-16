@@ -1,0 +1,648 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit --><!DOCTYPE html>
+<html><head></head><body>
+<div id="experiment"> <!-- The Experiment Document Container-->
+<!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+<header class="default" id="experiment-header">
+<div class="logo" id="experiment-header-logo">
+<!-- Enclose the logo image of your lab or write it in 
+      text-->
+<img src="../images/logo.jpg"/>
+</div>
+<div class="heading" id="experiment-header-heading">
+<!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+<a href="../index.html">Population ecology Virtual Lab I</a>
+</div>
+<!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+</header>
+<!-- The lab article is the main content area where all the 
+  experiment content sits-->
+<article id="experiment-article">
+<!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+<div class="breadcrumb" id="experiment-article-breadcrumb">
+</div>
+<header class="heading" id="experiment-article-heading">Parasitoid-Host Dynamics</header>
+<!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+<nav class="default" id="experiment-article-navigation">
+<ul id="experiment-article-navigation-menu">
+<!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+</ul>
+</nav>
+<!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+<div id="experiment-article-sections">
+<!-- First section of the article-->
+
+<!-- Second section of the article-->
+
+<section id="experiment-article-section-3">
+<div class="icon" id="experiment-article-section-3-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/objective.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-3-heading">
+          Theory
+</div>
+<div class="content" id="experiment-article-section-3-content"><div class="divContent">
+Objectives:</h1>
+<p>&nbsp;</p>
+<ul>
+    <li>Explore the two different models of parasitoid-host dynamics for studying the interaction between a host and a parasitoid.</li>
+    <li>Use mathematical models to explore the effect of various kinds of parasitoids on a host population and thus to achieve biological control.</li>
+</ul>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The parasitoids are a group of insects those lay their eggs in, on or near other insects. The larval parasitoid then develops inside or on its host and eventually it almost consumes the host and therefore kills it. For parasitoids that feed as larvae on plants, the rate of ‘predation’ is determined mostly by the rate at which the adult females lay eggs. Each egg is an ‘attack’ on the prey or host, even though it is the larva that hatches from the egg that does the eating.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Most of the parasitoids are found to useful in controlling insect pests as they are highly specialized. That is, when their host species become scarce, they do not switch to new host species. Parasitoids are effectively useful when they maintain their host population at a low density. This is better than causing extinction because if the host goes extinct, then the parasitoid also goes extinct. Because of this the host may then recolonize the area from somewhere else.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;Parasitoid-host dynamics is governed fundamentally by the searching behavior of the parasitoid and the spatial distribution of the host. This experiment helps to understand the two different mathematical models that differ in their dispersion pattern of the host population. The two models used in this exercise are, Nicholson-Bailey model, developed by A.J. Nicholson and V.A. Bailey in 1935 and the second is the negative binomial model, which is developed by the Australian ecologist Robert May in 1978. The Nicholson-Bailey model uses the Poisson distribution define the dispersion pattern, whereas the negative binomial model uses the negative binomial probability distribution to define the same.</p>
+<p>&nbsp;</p>
+<h3>The Negative Binomial Model of Parasitoid-Host Population Dynamics</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">The negative binomial model is written in discrete time as the life cycles of both parasitoid and host are usually synchronized by the seasons. Discrete time models are used to describe biological phenomena or events for which it is natural to regard time at fixed (discrete) intervals.</p>
+<p>&nbsp;</p>
+<p><u>The population density of the host:</u></p>
+<p>&nbsp;</p>
+<p>The population density of the host in the next year is the maximum rate of geometric growth (Rm) times the number of hosts in the population now (Ht) times the probability that an individual in the population will not be parasitized.</p>
+<p style="text-align: justify;">That is;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/eq1.JPG" alt="" height="63" width="228" style="width: 228px; height: 63px;"></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Here, the term in the brackets is the probability of a host not being found. Where <em><strong>Ht</strong></em> is the ‘initial population of hosts’, <em><strong>Pt</strong> </em>is the ‘initial population of female parasitoids’, <em><strong>Rm</strong> </em>is the ‘Reproductive rate of host without parasitism’, <em><strong>a</strong></em> is the ‘searching efficiency of the parasitoid’ and <em><strong>k</strong></em> is the ‘clumping factor’ that describes the dispersion pattern of the host population.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><u>The population density of the parasitoid:</u></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The population density of the parasitoid is predicted, from one year to the next, by the number of new parasitoids produced from each host (<strong>c</strong>) times the number of parasitoids now (<strong>Pt</strong>) times the probability that each parasitoid finds a host, which is one minus the probability that a host will not be found. The model is as follows.<br>
+&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/eq2.JPG" alt="" height="69" width="255" style="width: 255px; height: 69px;"></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;Where, <em><strong>Ht </strong></em>is the ‘Initial population of hosts’,<em><strong> Pt </strong></em>is the ‘initial population of female parasitoids’,<strong><em> a</em></strong> is the ‘searching efficiency of the parasitoid’, <strong><em>Rm</em></strong> is the ‘Reproductive rate of host without parasitism’, <em><strong>c</strong></em> is the ‘Average number of female parasitoids produced from each host’ and<strong><em> k</em></strong> is the ‘clumping factor’.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>The Nicholson-Bailey Model of Parasitoid-Host Population Dynamics: Poisson distribution</h3>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The Nicholson-Bailey model of parasitoid-host dynamics assumes that the probability of host being not found follows Poisson distribution. The Poisson distribution resembles the negative binomial distribution with a relative large ‘clumping factor’ (<strong><em>k</em></strong>).</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">In Poisson distribution, the probability that a host will not be detected is equal to <strong><em>e<sup>-aP</sup></em></strong> . Where <em><strong>a</strong></em> is the searching efficiency of the parasitoid and <strong><em>P</em></strong> is the number of parasitoids whereas in negative binomial model, the probability that a host will not be detected is equal to&nbsp; <em><strong>( 1 + aPt / k )-k </strong></em>.<em><strong><br>
+</strong></em></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;When the Poisson distribution is substituted for the negative binomial distribution, we get the following equations for the host and parasitoid.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/eq_3.JPG" alt=""style="width: 251px; height: 70px;" ></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">Where, <strong><em>Ht</em></strong> is the ‘Initial population of hosts’, <strong><em>Pt</em></strong> is the ‘Initial population of female parasitoids’, <strong><em>Rm</em></strong> is the ‘Reproductive rate of host without parasitism’, <strong><em>a</em></strong> is the ‘Searching efficiency of the parasitoid’ and <em><strong>c</strong></em> is the ‘Average number of female parasitoids produced from each host’.</p>
+<p>&nbsp;</p>
+<p>Adding carrying capacity to the host population, we get</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/eq4.JPG" alt="" height="51" width="241" style="width: 241px; height: 51px;"></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Where, ‘<em><strong>K</strong></em>’ is the carrying capacity of the host population.</p>
+</div></div>
+</section>
+<section id="experiment-article-section-5">
+<div class="icon" id="experiment-article-section-5-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-5-heading">
+          Procedure
+        </div>
+<div class="content" id="experiment-article-section-5-content"><div class="divContent">
+The screen shot of the simulator is as shown below.<br>
+&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Parasitoid_Porc_1.png" style="width: 705px; height: 531px;" alt=""></p>
+<p>&nbsp;</p>
+<h3>User Instructions:</h3>
+<p>&nbsp;</p>
+<p>The simulator consists of three regions: the simulator's viewable window, the variables menu and the simulation control menu.</p>
+<p>&nbsp;</p>
+<h3>The Variables Menu:</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">The variables menu consists of four sub tabs for the simulation of the parasitoid-host dynamics model. Placing the cursor over these tabs show you the entire title of each model.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Parasitoid_Porc_2.png" alt="" height="94" width="203" style="width: 203px; height: 94px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">User can click on any of these four options and can enter the values for each of the variables to simulate the model. The values shown in the 'Variables' Menu of these three tabs are default values. User can change the values for the parameters according to the data to be tested.</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">When the user clicks on the ‘Nicholson-Bailey Model’ the variables menu will be shown as follows:</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Parasitoid_Porc_3.png" alt="" height="436" width="206" style="width: 206px; height: 436px;"></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Similarly, the user can select the different tabs and enter the values according to the data to be tested. Each of the four models has its own set of different parameters.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>Simulation Control Menu:</h3>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><br>
+These set of buttons are used for controlling the simulation. Simulation control includes: buttons for plotting the graph of different models mentioned and a 'Reset' button, which resets the simulator to the default values.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Parasitoid_Porc_4.png" alt="" height="75" width="202" style="width: 202px; height: 75px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<h3>Viewable Window (Result Display Window):</h3>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The simulated values for the parameters are interspersed as graphs in this window.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/Parasitoid_Porc_5.png" alt="" height="503" width="595" style="width: 595px; height: 503px;">
+</div></div>
+</section>
+<section id="experiment-article-section-7">
+<div class="icon" id="experiment-article-section-7-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-7-heading"> Self Evaluation</div>
+<div class="content" id="experiment-article-section-7-content"><div class="divContent">
+</ul></div></td><td id="rcurve" height="145px" width="21px"></td></tr><tr><td></td><td></td></tr></tbody></table></div><div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The probability distribution which is used in the Nicholson-Bailey model is</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12312" name="ans0" value="12312" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12312">Negative binomial distribution</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12313" name="ans0" value="12313" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12313">Poisson distribution</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12314" name="ans0" value="12314" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12314">Bernoulli distribution</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12315" name="ans0" value="12315" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12315">Geometric distribution</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">A parasitoid is said to be the best parasitoid or it is particularly useful when it maintains its host population at</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans12316" style="vertical-align:middle" name="ans1" value="12316" type="radio"> <label for="ans12316" id="textAnsChoice">Lowest possible density</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans12317" style="vertical-align:middle" name="ans1" value="12317" type="radio"> <label for="ans12317" id="textAnsChoice">Zero</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans12318" style="vertical-align:middle" name="ans1" value="12318" type="radio"> <label for="ans12318" id="textAnsChoice">High density</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans12319" style="vertical-align:middle" name="ans1" value="12319" type="radio"> <label for="ans12319" id="textAnsChoice">None of the above</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The negative binomial model of parasitoid-host population dynamics is developed by</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12320" name="ans2" value="12320" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12320">A.J. Nicholson &amp;V.A. Bailey</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12321" name="ans2" value="12321" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12321">W. O. Kermack &amp; A. G. McKendrick</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12322" name="ans2" value="12322" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12322">Robert May</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12323" name="ans2" value="12323" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12323">Robert MacArthur</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">Parasitoid-host dynamics is primarily governed by</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12324" name="ans3" value="12324" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12324">Spatial distribution of the host</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12325" name="ans3" value="12325" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12325">Searching efficiency of the parasitoid</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12326" name="ans3" value="12326" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12326">All the above</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans12327" name="ans3" value="12327" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans12327">None of the above</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The variable which represents the ‘Average number of female parasitoids produced from each host’ is</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans12328" style="vertical-align:middle" name="ans4" value="12328" type="radio"> <label for="ans12328" id="textAnsChoice">k</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans12329" style="vertical-align:middle" name="ans4" value="12329" type="radio"> <label for="ans12329" id="textAnsChoice">a</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans12330" style="vertical-align:middle" name="ans4" value="12330" type="radio"> <label for="ans12330" id="textAnsChoice">Rm</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans12331" style="vertical-align:middle" name="ans4" value="12331" type="radio"> <label for="ans12331" id="textAnsChoice">c</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1426142603/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div></form>
+</div></div>
+</section>
+<section id="experiment-article-section-4">
+<div class="icon" id="experiment-article-section-4-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/simulation.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-4-heading">
+          Simulator
+        </div>
+<div class="content" id="experiment-article-section-4-content"><div class="divContent"><p><a href="../index.php?exp_id=Parasitoid_Host_Dynamics" target="_blank">Click here for Simulator</a></p></div></div>
+</section>
+<section id="experiment-article-section-6">
+<div class="icon" id="experiment-article-section-6-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-6-heading">
+          Assignment
+</div>
+<div class="content" id="experiment-article-section-6-content">
+<ol>
+    <li style="text-align: justify;">Perform the simulation of Nicholson-Bailey model with host density dependence.&nbsp; Start the simulation without the parasitoid and observe the pattern of growth of the host in the absence of its enemy. Then introduce the parasitoid and see what happens to the host population. For example, introduce the parasitoid after 25 years and see what happens to the host population. You can use the default values of other variables, and then modify them in later simulations.</li>
+    <li style="text-align: justify;">Select different species of parasitoid with different capacities for finding the corn borer (a) and for using it to produce more parasitoids (c). Do the simulation with such different species of parasitoids, and find the best parasitoid that you can within the time that you have. The best parasitoid is the one that keeps its host at the lowest possible density (other than zero) yet does not go extinct itself.</li>
+</div>
+</section>
+<section id="experiment-article-section-8">
+<div class="icon" id="experiment-article-section-8-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-8-heading">
+            Reference
+</div>
+<div class="content" id="experiment-article-section-8-content"><div class="divContent">
+<h2>Books:</h2>
+<p>&nbsp;</p>
+<ol>
+    <li>Ecology From Individuals to Ecosystems (Fourth Edition). Michael Begon, Colin R. Townsend, John L. Harper, 2006.</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Journals:</h2>
+<p>&nbsp;</p>
+<ol>
+    <li style="text-align: justify;">Robert M. May. ‘Host-Parasitoid Systems in Patchy Environments: A Phenomenological Model’, Journal of Animal Ecology (1978), 47, 833-843.</li>
+    <li style="text-align: justify;">R.M. May, M.&nbsp; P.&nbsp; Hassell, R.M.&nbsp; Anderson and D.W.&nbsp; Tonkyn, ‘Density&nbsp; Dependence&nbsp; In Host-Parasitoid&nbsp; Model’, Journal&nbsp; of&nbsp; Animal&nbsp; Ecology&nbsp; (1981),&nbsp; 50,&nbsp; 855-865.</li>
+</div></div>
+</section>
+<section id="experiment-article-section-9">
+<div class="icon" id="experiment-article-section-9-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-9-heading">
+            Feedback
+</div>
+<div class="content" id="experiment-article-section-9-content">
+<h1>Feedback - Amrita Vishwa Vidyapeetham Virtual Lab</h1>
+<p>
+</p>
+	<form name="form1" id="form1" method="post">
+        <p>&nbsp;</p>
+        <p>Welcome to the Amrita Vishwa Vidyapeetham Virtual Lab online feedback system. Thanks for taking the time to share your feedback. We'll use the information you provide below to improve our virtual labs.</p>
+        <p>&nbsp;</p>
+        <div><p>* Required</p></div>
+        <p>&nbsp;</p>
+        <p><b>Name of the user</b></p>
+        <div><p><input value="" name="name" id="name" type="text"></p></div>
+        <p>&nbsp;</p>
+        <p><b>Department </b>*</p>
+        <div><p>
+               	<br>
+                <select style="width:252px" name="subjectId" size="1" id="subjectId" disabled="" onchange="comboSubmit('sub_combo');">
+					                        <option selected="" value="3">Biotechnology and Biomedical Engineering</option>
+                                           <option value="2">Chemical Sciences</option>
+                                           <option value="1">Physical Sciences</option>
+                                           <option value="78">Computer Science</option>
+                                           <option value="77">Mechanical Engineering</option>
+                       
+        		</select>
+		         
+        </p></div>
+      <p>&nbsp;</p>
+        <h2>Lab Details</h2>
+        <div><p>
+        			<br>
+                <select style="width:252px" name="topicId" size="1" id="topicId" disabled="" onchange="comboSubmit('topic_combo');">
+       			 				<option value="43">Neurophysiology Virtual Lab (pilot)</option>
+        						<option value="212">Neuron Simulation Virtual Lab (pilot)</option>
+        						<option value="63"> Biochemistry Virtual Lab I</option>
+        						<option value="64"> Biochemistry Virtual Lab II</option>
+        						<option selected="" value="65">Population ecology Virtual Lab I</option>
+        						<option value="67">Population ecology Virtual Lab II</option>
+        						<option value="69"> Immunology Virtual Lab I</option>
+        						<option value="70">Immunology Virtual Lab II</option>
+        						<option value="73">Microbiology Virtual Lab I</option>
+        						<option value="76">Microbiology Virtual Lab II</option>
+        						<option value="77">Molecular Biology Virtual Lab I</option>
+        						<option value="186">Molecular Biology Virtual Lab II</option>
+        						<option value="187">Cell biology Virtual Lab I</option>
+        						<option value="188">Cell biology Virtual Lab II</option>
+        						<option value="278">Biological Image Analysis Virtual Lab</option>
+        						<option value="273">Bioinformatics Virtual Lab I</option>
+        						<option value="274">Bioinformatics Virtual Lab II</option>
+        						<option value="275">Bioinformatics Virtual Lab III</option>
+        						<option value="276">Systems Biology Virtual Lab</option>
+        						<option value="277">Computer-Aided Drug Design Virtual Lab</option>
+        						<option value="272">Ecology Virtual Lab</option>
+        						<option value="257">Bio-inspired Robotics Virtual Labs (Remote Trigger)</option>
+        						<option value="258">Virtual Biophysics Lab (Remote Trigger)</option>
+        		                </select>
+                
+                        </p>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Name of the  Experiment </b>*</p>
+        <div><p>
+               <input value="73" name="subTopicId" id="subTopicId" type="hidden">
+       			<br><select style="width:252px" name="experimentId" size="1" id="experimentId" disabled="">
+       		        <option value="174">Population with Continuous and Discrete Growth</option>
+        	        <option value="180">Spread of a Pest  Population - Population Invasion</option>
+        	        <option value="183">Age Structured Leslie Matrix</option>
+        	        <option value="771">Stage Structured Leslie Matrix</option>
+        	        <option value="772">Metapopulation Dynamics -Levins Model</option>
+        	        <option selected="" value="773">Interspecific Competition and Coexistence</option>
+        	        <option value="1092">Effect of Interspecific Competition on Species Border</option>
+        	        <option value="1110">Logistic Population Growth: Continuous and Discrete</option>
+        	        <option value="1337">Parasitoid-Host Dynamics</option>
+        	        <option value="1451">Conserving an Endangered Species</option>
+        	    
+        </select>
+        
+                 <input name="combo1" id="combo1" type="hidden">   
+        </p></div>
+      <p>&nbsp;</p>
+        <p><b>Type of Experiment</b></p>
+        <div><p><input name="vlType" value="Simulator" id="vlType" type="radio"> Simulator</p>
+        <p><input name="vlType" value="Measurement" id="vlType" type="radio"> Measurement</p>
+        <p><input name="vlType" value="Remote trigger" id="vlType" type="radio"> Remote trigger</p></div>
+        <p>&nbsp;</p>
+        <h2>Please indicate your agreement with the following statements</h2>
+        <p>&nbsp;</p>
+        <div><div style="width:100%">
+            <table border="0">
+                <thead>
+                <tr>
+                    <td width="23%"></td>
+                    <td width="5%"></td>
+                    <td align="center" width="15%">Excellent</td>
+                    <td align="center" width="12%">Very Good</td>
+                    <td align="center" width="10%">Good</td>
+                    <td align="center" width="12%">Average</td>
+                    <td align="center" width="10%">Poor</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">How do you rate the online performance of the experiment?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Excellent" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Very Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Average" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Poor" id="expPerformance" type="radio">
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td align="right">To what extent did you have control over the interactions?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Excellent" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Very Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Average" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Poor" id="interactionCtrl" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">To what degree was the actual lab environment simulated?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Excellent" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Very Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Average" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Poor" id="simulatorCmpr" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Was the measurement and analysis of data easy for you?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Excellent" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Very Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Average" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Poor" id="dataMrmnt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">The manuals were found to be helpful</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Excellent" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Very Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Average" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Poor" id="manuals" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Were the links provided consistent with the objectives of the experiment?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="expObjectives" value="Excellent" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Very Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Average" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Poor" id="expObjectives" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Were the results of the experiment easily interpreted?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Excellent" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Very Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Average" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Poor" id="expResult" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">A clear understanding of the experiment and related topics was gained</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="understandExp" value="Excellent" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Very Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Average" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Poor" id="understandExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>How helpful do you feel the system is?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysHelp" rows="8" cols="75" id="sysHelp"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you experience any problem?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysPblm" rows="8" cols="75" id="sysPblm"></textarea></p></div>
+        <p>&nbsp; </p>
+        <p><b>Is there anything you would like to tell us?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="tellUs" rows="8" cols="75" id="tellUs"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you feel confident enough while performing the experiment?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="confidence" value="Yes" id="confidence" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="confidence" value="No" id="confidence" type="radio"> 
+        No</p></div>
+        <div><p><input name="confidence" value="Can't say" id="confidence" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Was the experiment/process motivating enough?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="expMotivation" value="Yes" id="expMotivation" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="expMotivation" value="No" id="expMotivation" type="radio"> 
+        No</p></div>
+        <div><p><input name="expMotivation" value="Can't say" id="expMotivation" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you go through the manual/ step by step procedure before performing the experiments live?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="stepmethdExp" value="Yes" id="stepmethdExp" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="stepmethdExp" value="No" id="stepmethdExp" type="radio"> 
+        No</p></div>
+        <p>&nbsp;</p>
+        <p><b>Please answer the following</b></p><br>
+        <div style="width:100%;">
+        <div>
+            <table align="left" border="0">
+                <thead>
+                    <tr>
+                        <td width="40%"></td>
+                        <td width="10%"></td>
+                        <td align="center" width="13%">Yes</td>
+                        <td align="center" width="13%">No</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you get the feel of a real lab while performing the experiments virtually?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="Yes" id="actualLab" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="No" id="actualLab" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Did you feel the absence of an instructor?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="instructorAbs" value="Yes" id="instructorAbs" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="instructorAbs" value="No" id="instructorAbs" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Could you run the experiments smoothly, i.e., without interruptions?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="Yes" id="withoutInt" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="No" id="withoutInt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you measure and analyse the data successfully?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="analyzeData" value="Yes" id="analyzeData" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="analyzeData" value="No" id="analyzeData" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you follow the step by step procedure before doing the live experiment?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="Yes" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="No" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you compare your results with the given typical results?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="compareRes" value="Yes" id="compareRes" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="compareRes" value="No" id="compareRes" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Do you think performing experiments through virtual labs were more challenging than the real lab experiments?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="Yes" id="performExp" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="No" id="performExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Specify three problems/difficulties you faced while performing the experiments?</b></p><br>
+        <div><p>
+            <textarea name="threePblms" rows="8" cols="75" id="threePblms"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Describe three interesting things about the experiments.</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <textarea name="threeThings" rows="8" cols="75" id="threeThings"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work?</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <input name="moreScope" value="Yes" id="moreScope" type="radio"> 
+            Yes        </p>
+        <p>
+            <input name="moreScope" value="No" id="moreScope" type="radio"> 
+            No        </p></div>
+        <p>&nbsp;</p>
+        <div><p>
+            <b>Please type in the code shown. </b>*<br>
+            <input name="captcha_code" size="15" class="" type="text"><br>
+            <img id="captcha" src="captcha/captchadisp.php?md5(uniqid(time())); " style="padding-top:8px">
+        </p>
+        <p>
+                </p>
+        <p>&nbsp;</p>
+                <p>
+            <input name="submit1" id="submit1" value="Submit" style="width:10%;" onclick="return checkFeedBack();" type="submit">  
+        </p> 
+        </div>   
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+ 
+
+ </div></section>
+</div>
+</article>
+</div>
+</body></html>

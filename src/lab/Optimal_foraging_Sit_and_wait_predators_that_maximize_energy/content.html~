@@ -1,0 +1,660 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit --><!DOCTYPE html>
+<html><head></head><body>
+<div id="experiment"> <!-- The Experiment Document Container-->
+<!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+<header class="default" id="experiment-header">
+<div class="logo" id="experiment-header-logo">
+<!-- Enclose the logo image of your lab or write it in 
+      text-->
+<img src="../images/logo.jpg"/>
+</div>
+<div class="heading" id="experiment-header-heading">
+<!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+<a href="../../index.html">Population ecology Virtual Lab I</a>
+</div>
+<!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+</header>
+<!-- The lab article is the main content area where all the 
+  experiment content sits-->
+<article id="experiment-article">
+<!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+<div class="breadcrumb" id="experiment-article-breadcrumb">
+</div>
+<header class="heading" id="experiment-article-heading">Optimal Foraging: Sit-and-wait Predators that Maximize Energy</header>
+<!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+<nav class="default" id="experiment-article-navigation">
+<ul id="experiment-article-navigation-menu">
+<!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+</ul>
+</nav>
+<!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+<div id="experiment-article-sections">
+<!-- First section of the article-->
+
+<!-- Second section of the article-->
+
+<section id="experiment-article-section-3">
+<div class="icon" id="experiment-article-section-3-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/objective.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-3-heading">
+          Theory
+</div>
+<div class="content" id="experiment-article-section-3-content"><div class="divContent"><h1>Objectives:</h1>
+<p>&nbsp;</p>
+<ul>
+    <li style="text-align: justify;">To understand the basic concept of optimal foraging theory and its relevance with regards to different foraging modes.</li>
+    <li style="text-align: justify;">To analyze the behavior of a sit-and-wait (ambush) predator whose optimal foraging strategy is to maximize the energy that it gains.</li>
+    <li style="text-align: justify;">To estimate the average time and total energy gain for each hunting.</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align: justify;">One of the main classical concerns of ecology is foraging behavior. Optimal foraging illustrates the organisms forage in such a way as to maximize their net energy intake per unit time.&nbsp; It was first proposed by Robert MacArthur, J M Emlen, and Eric Pianka in 1966. The first assumption of the optimal foraging theory is natural selection will only favor behavior that maximizes energy return.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The population density of predators mainly depends upon their food. That means predators who hunt more efficiently will get more than their actual share and thus can produce many offspring than others. (It includes finding /catching /killing their prey). It is evident that the hunting behavior of organisms is more efficient with regard to energy or time expended in hunting.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>Modes of Foraging:</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Foraging mode is a very important aspect of life history, and it is generally associated with characteristics such as reproductive effort, risk of predation, energy budget and locomotor mode. Classiﬁcation of foraging mode can be useful because of these life-history associations.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Optimal foraging theory helps biologist to understand the factors determining a consumer’s operation range of food types.&nbsp; Predators have been described into two categories based on its foraging strategies: searching (active or ‘widely foraging’) and sit-and-wait or ambush. A searching predator moves throughout its habitat and find its prey. That means actively foraging predators are characterized by their frequent wandering movements. A sit-and-wait predator waits or remains still for long periods of time to capture its prey as it appears before them. That is some predators attack their prey from ambush, whereas others mainly hunt while on the move. Pianka (1966) named these two strategies of foraging the "sit-and-wait” and "widely-foraging" respectively. There is striking difference in foraging pattern between these two groups. Foraging mode is an important characterizing trait of predators and may correlate with behavioral, ecological, physiological, and morphological characteristics. It is clear that the natural consequential impact on optimal foraging theory and competitive relationships among species.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">There are some conditions required to support these two modes of foraging. A sit-and-wait strategy is mostly relying on moving preys or high prey mobility and the prey density must be relatively high. In order to favor the sit-and-wait tactic, predator’s energy requirements must be low. Whereas searching predators encounter and consume non-moving types of prey population. The success of widely foraging pattern of ‘searchers’ is also influenced by prey density and prey mobility along with the predator's energetic requirements. Generally it should be higher than those of sit-and-wait predators. However the searching abilities of the predator and the spatial distribution of its prey are paramount. The sit-and-wait foraging mode is less common during periods of prey scarcity than the widely-foraging pattern.&nbsp; Some common examples of ambush predators include snakes, fish and other reptiles such as crocodiles as well as birds, some mammals and spiders.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;It has been studied that there are some general correlates between these foraging modes in the case of desert lizard species. Huey and Pianka (1981) compiled many of these ecological correlates of foraging tactics. (Refer the experiment 'Optimal Foraging: Searching Predators that Maximize Energy' in Population Ecology lab II)</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>&nbsp;A Case of Sit-and-wait Predator that Maximize Energy:</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">As explained, there are two general categories of predators:&nbsp; sit-and-wait and active. The main objective of this exercise is to study and analyze the behavior of a sit-and-wait predator whose optimal foraging strategy is to maximize the energy that it gains during each foraging course. A sit-and-wait predator usually waits for prey to come within striking distance. It waits in one place for long periods of time and makes decisions regarding when to hunt or when not to hunt the prey that it sees. A major part of this decision depends on how far the prey is from its predator.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;<img alt="" style="width: 264px; height: 179px;" src="/userfiles/1/image/Kingfisher_4.jpg" align="right">To study the behavior of such a predator we can make use of the foraging strategy of a kingfisher. The Common Kingfisher hunts from a perch above the water, on a branch, beak pointing down as it seeks for prey. When food is detected, it dives steeply down to grab its prey. For example, consider a kingfisher waiting on a perch on a branch, looking down at a river and choosing which fish to go for. For the sake of understanding, let us assume that the pattern of the foraging area as a semicircle around it and the size and behavior of all the fishes are same. When a kingfisher takes decision to grab a particular fish, it dives from its perch, seizes the fish, and comeback to its perch.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="text-align: right;">&nbsp;<span style="color: rgb(192, 192, 192);">Image source: http://en.wikipedia.org</span></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The energy spent in waiting and pursuit of the prey depends on the size of the foraging area. Increasing the size of the foraging area decreases the time and energy spent in waiting for a fish to come into sight as there is a chance of choosing more fishes. Also, increasing the size of the foraging area increases the average time and energy spent in capturing the prey, because the kingfisher has to fly longer distance to catch its prey.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;As explained above, the abundance of the fish increases as the size of the foraging area (semicircle) increases. We need to know how the abundance of the prey increases as it is helpful to find the optimal size of the foraging area. It is known that the area of the semi circle is1/2 πr^2. The rate at which area changes with radius is the derivative of the area with respect to the radius, and that is πr. Therefore, on integrating the abundance per unit area will help to obtain the total abundance of the prey within that foraging area (in this case it is semicircle).</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;i.e.,</p>
+<p style="text-align: center;">&nbsp;<img alt="" style="width: 380px; height: 65px;" src="/userfiles/1/image/sit&amp;wait_eqn1%281%29.png""></p>
+<p>&nbsp;</p>
+<p>&nbsp;Where, ‘a’ is the abundance of the prey per unit area,<em> 'r_start'</em> and <em>'r_end' </em>is the starting and outer boundary of the semicircle and ‘r’ stands for the radius of the circle.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;It is explained earlier that the increasing the size of the foraging area decreases the waiting time of the kingfisher for fish to appear. That is, the waiting time is then proportional to the reciprocal of the total abundance.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;<img alt="" style="width: 380px; height: 65px;" src="/userfiles/1/image/sit&amp;wait_eqn2.png" height="68" width="305"></p>
+<p style="text-align: justify;">&nbsp;We can use this formula use to calculate the waiting time of the kingfisher in seconds. Simulate the above to understand the relation between size of the foraging area and waiting time.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><img alt="" style="width: 277px; height: 218px;" src="/userfiles/1/image/Kingfisher_2.jpg" align="left"></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The time taken by the kingfisher to fly from its perch to prey (fish) is the distance (here the radius) divided by the velocity of flight, i.e., <em><strong>r/v </strong></em>. Thus, the total time it takes to fly to catch a fish and then back to its perch is <em><strong>2( r/v)</strong></em>. Therefore, the average time includes the time takes to pursue in all parts of the foraging area, from the starting point of the cut-off-radius (right next to its perch) to the outer boundary of the semicircle (foraging area). It is given by:</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><span style="color: rgb(192, 192, 192);">Image source: http://en.wikipedia.org</span></p>
+<p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" style="width: 450px; height: 85px;" src="/userfiles/1/image/sit&amp;wait_eqn3.png" height="86" width="413"></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">We can simulate this to study the relation between average pursuit time and size of the foraging area.</p>
+<p style="text-align: justify;"><br>
+Thus, the sum of waiting time and average pursuit time is the average time that it takes a kingfisher to get a fish.<br>
+&nbsp;</p>
+<p style="text-align: center;"><img alt="" style="width: 250px; height: 50px;" src="/userfiles/1/image/sit&amp;wait_eqn4.png" height="52" width="235"></p>
+<p style="text-align: justify;">From the above formulas, we can also calculate the average energy gain that it gets for every fish it eats.</p>
+<p style="text-align: justify;"><em><br>
+Energy gain = energy intake – energy spent for waiting – energy spent in pursuit<br>
+</em></p>
+<p style="text-align: justify;">If <em><strong>‘e’ </strong></em>is the energy content of each fish,<em><strong> ‘ew’</strong></em> is the energy expenditure per second while waiting for fish, and <strong><em>‘ep’</em></strong> is the energy expenditure per second during pursuit, the energy gain is given as,</p>
+<p style="text-align: center;"><img alt="" src="/userfiles/1/image/sit&amp;wait_eqn5.png" style="width: 250px; height: 45px;"></p>
+<p style="text-align: center;"><img alt="" src="/userfiles/1/image/Kingfisher_3.jpg" style="width: 319px; height: 211px;" align="right"></p>
+<p style="text-align: justify;">Where <strong><em>'ei' </em></strong>is the energy gain.</p>
+<p style="text-align: justify;"><br>
+The average rate of energy gain from foraging in a semicircle of the given radius is equal to the average energy per fish divided by the average time spent for getting the prey.<br>
+&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img alt="" src="/userfiles/1/image/sit&amp;wait_eqn6.png" style="width: 250px; height: 60px;"></p>
+<p style="text-align: right;">&nbsp; <span style="color: rgb(192, 192, 192);">Image source: http://en.wikipedia.org</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+</div></div>
+</section>
+<section id="experiment-article-section-5">
+<div class="icon" id="experiment-article-section-5-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-5-heading">
+          Procedure
+        </div>
+<div class="content" id="experiment-article-section-5-content"><div class="divContent"><h2>Procedure:</h2>
+<p>&nbsp;</p>
+<p>The screen shot of the simulator is as shown below.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc1.png" style="width: 703px; height: 528px;" alt=""></p>
+<p style="text-align: center;">&nbsp;</p>
+<h3>User Instructions:</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;The simulator consists of three regions: the simulator's viewable window, the variables menu and the simulation control menu.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>The Variables Menu:</h3>
+<p>&nbsp;</p>
+<p style="text-align: justify;">The variables menu section consists of three subtabs for the simulation of the model to calculate the reciprocal proportion, average time and energy gain.</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc2.png" alt="" style="width: 200px; height: 70px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">User can click on any of these three options and can enter the values for each of the variables to simulate the model. The values shown in the 'Variables' Menu of these three tabs are default values. User can change the values for the parameters according to the Data to be tested.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">When the user clicks on the ‘Reciprocal Proportion’ the variables menu will be shown as follows:</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc3.png" alt="" style="width: 200px; height: 450px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">The variables include: Abundance of prey (a) and Cut-off Radius. For example, if there is an abundance of 1 prey in every 100 seconds, a = 0.01.&nbsp;&nbsp; In this exercise we assume the possible foraging area of the predator as a semicircle. The outer boundary of the semicircle is referred as the cut-off radius.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">When the ‘Average Time’ is clicked, the variables menu is as shown below.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc4.png" alt="" style="width: 200px; height: 450px;"></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The average pursuit time is the time taken by the predator to pursue a prey in all parts of its foraging area. The parameters include: Abundance of prey (a), Velocity (v) and Cut-off radius.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Clicking on the ‘Energy Gain’ tab allow the user to calculate the net energy gain. The average rate of energy gain from foraging in a particular area (we assume it as a semicircle) is the average energy per prey divided by the average time spent getting it.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc5.png" alt="" style="width: 200px; height: 450px;"></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The parameters are, Abundance of prey (a), Velocity (v), Energy content of each prey item (e), Energy burned (ew), which means the energy burned by a predator while waiting for the prey, Flying speed of predator (v), Energy burned while predation (ep)&nbsp; and Cut-off radius.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<h3>Simulation Controls Menu:</h3>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/userfiles/1/image/sit&amp;wait_proc6.png" alt="" style="width: 200px; height: 70px;"></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">These set of buttons are used for controlling the simulation. The ‘Plot Graph’ button is to simulate the model and the 'Reset' button resets the simulator to the default values.</p></div></div>
+</section>
+<section id="experiment-article-section-7">
+<div class="icon" id="experiment-article-section-7-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-7-heading">
+            Self Evaluation
+          </div>
+<div class="content" id="experiment-article-section-7-content"><div class="divContent">
+</ul></div></td><td id="rcurve" height="145px" width="21px"></td></tr><tr><td></td><td></td></tr></tbody></table></div><div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">Which of the following characteristics are generally associated with the foraging mode of an organism?</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11925" style="vertical-align:middle" name="ans0" value="11925" type="radio"> <label for="ans11925" id="textAnsChoice">Reproductive effort</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11926" style="vertical-align:middle" name="ans0" value="11926" type="radio"> <label for="ans11926" id="textAnsChoice">Risk of predation</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11927" style="vertical-align:middle" name="ans0" value="11927" type="radio"> <label for="ans11927" id="textAnsChoice">Locomotor mode</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11928" style="vertical-align:middle" name="ans0" value="11928" type="radio"> <label for="ans11928" id="textAnsChoice">All the above</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">An organism with a sit-and-wait  foraging strategy is mostly relying on</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11929" style="vertical-align:middle" name="ans1" value="11929" type="radio"> <label for="ans11929" id="textAnsChoice">Moving preys</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11930" style="vertical-align:middle" name="ans1" value="11930" type="radio"> <label for="ans11930" id="textAnsChoice">High prey density</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11931" style="vertical-align:middle" name="ans1" value="11931" type="radio"> <label for="ans11931" id="textAnsChoice">All the above</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11932" style="vertical-align:middle" name="ans1" value="11932" type="radio"> <label for="ans11932" id="textAnsChoice">None of the above</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">What is the effect of size of the foraging area on the energy spent in waiting and pursuit of the prey?</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans11933" name="ans2" value="11933" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans11933">Increasing the size of the foraging area increases the average time and energy spent in capturing the prey</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans11934" name="ans2" value="11934" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans11934">Increasing the size of the foraging area increases the time and energy spent in waiting for a prey</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans11935" name="ans2" value="11935" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans11935">Both of the above</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans11936" name="ans2" value="11936" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans11936">No relation between size of the foraging area and waiting time and energy spent</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">When compared with searching predators, the energetic requirements of sit-and wait predators should be _____________</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11937" style="vertical-align:middle" name="ans3" value="11937" type="radio"> <label for="ans11937" id="textAnsChoice">Higher</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11938" style="vertical-align:middle" name="ans3" value="11938" type="radio"> <label for="ans11938" id="textAnsChoice">Lower</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The total ‘energy gain’ is denoted by</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11939" style="vertical-align:middle" name="ans4" value="11939" type="radio"> <label for="ans11939" id="textAnsChoice">ew</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11940" style="vertical-align:middle" name="ans4" value="11940" type="radio"> <label for="ans11940" id="textAnsChoice">e</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans11941" style="vertical-align:middle" name="ans4" value="11941" type="radio"> <label for="ans11941" id="textAnsChoice">ei</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans11942" style="vertical-align:middle" name="ans4" value="11942" type="radio"> <label for="ans11942" id="textAnsChoice">ep</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1426143184/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div></form><br>
+</div></div>
+</section>
+<section id="experiment-article-section-4">
+<div class="icon" id="experiment-article-section-4-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/simulation.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-4-heading">
+          Simulator
+        </div>
+<div class="content" id="experiment-article-section-4-content"><div class="divContent"><p><a href="../?exp_id=Optimal_foraging_Sit_and_wait_predators_that_maximize_energy" target="_blank">Click here for Simulator</a></p></div></div>
+</section>
+<section id="experiment-article-section-6">
+<div class="icon" id="experiment-article-section-6-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-6-heading">
+          Assignment
+</div>
+<div class="content" id="experiment-article-section-6-content"><h1>Assignment:</h1>
+<p>&nbsp;</p>
+<p>1. Consider a number of fishes with varying sizes (Kilocalories per fish, abbreviated as ‘<em>e</em>’). Simulate this scenario with different values for ‘<em>e</em>’, construct different graphs for each value and analyze the effect of prey size on the optimal foraging strategy. Explain what is the effect of size of fish on optimal foraging strategy of a kingfisher?</p>
+<p>&nbsp;</p>
+<p>2. Assuming that a kingfisher’s flight velocity changes with the effect of bad weather and different environmental factors. That is, its flight velocity may decelerate with heavy rain, wind etc. Consider such a situation and perform the simulation with various flight velocities and see the effect of such environmental factors on optimal size of the foraging area and thus the optimal foraging strategy.</p>
+</div>
+</section>
+<section id="experiment-article-section-8">
+<div class="icon" id="experiment-article-section-8-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-8-heading">
+            Reference
+</div>
+<div class="content" id="experiment-article-section-8-content"><div class="divContent"><h2>Journals:</h2>
+<p>&nbsp;</p>
+<ol>
+    <li>Graham H. Pyke. Optimal Foraging Theory: A Critical Review. Ann. Rev. Ecol. Syst.15(523-75), 1984.</li>
+    <li>Huey, R. B. and E. R. Pianka. Ecological consequences of foraging mode. Ecology 62: 991-999, 1981.</li>
+    <li>&nbsp;Inon Scharf, Einat Nulman, Ofer Ovadia, and Amos Bouskila, Efﬁciency Evaluation of Two Competing Foraging Modes under Different Conditions, vol. 168, no. 3 The American Naturalist, September 2006.</li>
+    <li>Marguerite A. Butler, Foraging mode of the chameleon, <em>Bradypodion pumilum</em>: a challenge to the sit-and-wait versus active forager paradigm?, Biological Journal of the Linnean Society, 2005, 84, 797–808, 2004</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Webliography:</h2>
+<p>&nbsp;</p>
+<ol>
+    <li><a href="http://uts.cc.utexas.edu/%7Evaranus/foraging.html">http://uts.cc.utexas.edu/~varanus/foraging.html</a></li>
+</ol>
+</div></div>
+</section>
+<section id="experiment-article-section-9">
+<div class="icon" id="experiment-article-section-9-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-9-heading">
+            Feedback
+</div>
+<div class="content" id="experiment-article-section-9-content">
+<h1>Feedback - Amrita Vishwa Vidyapeetham Virtual Lab</h1>
+<p>
+</p>
+	<form name="form1" id="form1" method="post">
+        <p>&nbsp;</p>
+        <p>Welcome to the Amrita Vishwa Vidyapeetham Virtual Lab online feedback system. Thanks for taking the time to share your feedback. We'll use the information you provide below to improve our virtual labs.</p>
+        <p>&nbsp;</p>
+        <div><p>* Required</p></div>
+        <p>&nbsp;</p>
+        <p><b>Name of the user</b></p>
+        <div><p><input value="" name="name" id="name" type="text"></p></div>
+        <p>&nbsp;</p>
+        <p><b>Department </b>*</p>
+        <div><p>
+               	<br>
+                <select style="width:252px" name="subjectId" size="1" id="subjectId" disabled="" onchange="comboSubmit('sub_combo');">
+					                        <option selected="" value="3">Biotechnology and Biomedical Engineering</option>
+                                           <option value="2">Chemical Sciences</option>
+                                           <option value="1">Physical Sciences</option>
+                                           <option value="78">Computer Science</option>
+                                           <option value="77">Mechanical Engineering</option>
+                       
+        		</select>
+		         
+        </p></div>
+      <p>&nbsp;</p>
+        <h2>Lab Details</h2>
+        <div><p>
+        			<br>
+                <select style="width:252px" name="topicId" size="1" id="topicId" disabled="" onchange="comboSubmit('topic_combo');">
+       			 				<option value="43">Neurophysiology Virtual Lab (pilot)</option>
+        						<option value="212">Neuron Simulation Virtual Lab (pilot)</option>
+        						<option value="63"> Biochemistry Virtual Lab I</option>
+        						<option value="64"> Biochemistry Virtual Lab II</option>
+        						<option selected="" value="65">Population ecology Virtual Lab I</option>
+        						<option value="67">Population ecology Virtual Lab II</option>
+        						<option value="69"> Immunology Virtual Lab I</option>
+        						<option value="70">Immunology Virtual Lab II</option>
+        						<option value="73">Microbiology Virtual Lab I</option>
+        						<option value="76">Microbiology Virtual Lab II</option>
+        						<option value="77">Molecular Biology Virtual Lab I</option>
+        						<option value="186">Molecular Biology Virtual Lab II</option>
+        						<option value="187">Cell biology Virtual Lab I</option>
+        						<option value="188">Cell biology Virtual Lab II</option>
+        						<option value="278">Biological Image Analysis Virtual Lab</option>
+        						<option value="273">Bioinformatics Virtual Lab I</option>
+        						<option value="274">Bioinformatics Virtual Lab II</option>
+        						<option value="275">Bioinformatics Virtual Lab III</option>
+        						<option value="276">Systems Biology Virtual Lab</option>
+        						<option value="277">Computer-Aided Drug Design Virtual Lab</option>
+        						<option value="272">Ecology Virtual Lab</option>
+        						<option value="257">Bio-inspired Robotics Virtual Labs (Remote Trigger)</option>
+        						<option value="258">Virtual Biophysics Lab (Remote Trigger)</option>
+        		                </select>
+                
+                        </p>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Name of the  Experiment </b>*</p>
+        <div><p>
+               <input value="73" name="subTopicId" id="subTopicId" type="hidden">
+       			<br><select style="width:252px" name="experimentId" size="1" id="experimentId" disabled="">
+       		        <option value="174">Population with Continuous and Discrete Growth</option>
+        	        <option value="180">Spread of a Pest  Population - Population Invasion</option>
+        	        <option value="183">Age Structured Leslie Matrix</option>
+        	        <option value="771">Stage Structured Leslie Matrix</option>
+        	        <option value="772">Metapopulation Dynamics -Levins Model</option>
+        	        <option value="773">Interspecific Competition and Coexistence</option>
+        	        <option selected="" value="1092">Effect of Interspecific Competition on Species Border</option>
+        	        <option value="1110">Logistic Population Growth: Continuous and Discrete</option>
+        	        <option value="1337">Parasitoid-Host Dynamics</option>
+        	        <option value="1451">Conserving an Endangered Species</option>
+        	    
+        </select>
+        
+                 <input name="combo1" id="combo1" type="hidden">   
+        </p></div>
+      <p>&nbsp;</p>
+        <p><b>Type of Experiment</b></p>
+        <div><p><input name="vlType" value="Simulator" id="vlType" type="radio"> Simulator</p>
+        <p><input name="vlType" value="Measurement" id="vlType" type="radio"> Measurement</p>
+        <p><input name="vlType" value="Remote trigger" id="vlType" type="radio"> Remote trigger</p></div>
+        <p>&nbsp;</p>
+        <h2>Please indicate your agreement with the following statements</h2>
+        <p>&nbsp;</p>
+        <div><div style="width:100%">
+            <table border="0">
+                <thead>
+                <tr>
+                    <td width="23%"></td>
+                    <td width="5%"></td>
+                    <td align="center" width="15%">Excellent</td>
+                    <td align="center" width="12%">Very Good</td>
+                    <td align="center" width="10%">Good</td>
+                    <td align="center" width="12%">Average</td>
+                    <td align="center" width="10%">Poor</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">How do you rate the online performance of the experiment?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Excellent" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Very Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Good" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Average" id="expPerformance" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expPerformance" value="Poor" id="expPerformance" type="radio">
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td align="right">To what extent did you have control over the interactions?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Excellent" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Very Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Good" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Average" id="interactionCtrl" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="interactionCtrl" value="Poor" id="interactionCtrl" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">To what degree was the actual lab environment simulated?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Excellent" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Very Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Good" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Average" id="simulatorCmpr" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="simulatorCmpr" value="Poor" id="simulatorCmpr" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Was the measurement and analysis of data easy for you?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Excellent" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Very Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Good" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Average" id="dataMrmnt" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="dataMrmnt" value="Poor" id="dataMrmnt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">The manuals were found to be helpful</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Excellent" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Very Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Good" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Average" id="manuals" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="manuals" value="Poor" id="manuals" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Were the links provided consistent with the objectives of the experiment?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="expObjectives" value="Excellent" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Very Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Good" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Average" id="expObjectives" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="expObjectives" value="Poor" id="expObjectives" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Were the results of the experiment easily interpreted?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Excellent" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Very Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Good" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Average" id="expResult" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="expResult" value="Poor" id="expResult" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">A clear understanding of the experiment and related topics was gained</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="understandExp" value="Excellent" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Very Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Good" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Average" id="understandExp" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="understandExp" value="Poor" id="understandExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>How helpful do you feel the system is?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysHelp" rows="8" cols="75" id="sysHelp"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you experience any problem?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="sysPblm" rows="8" cols="75" id="sysPblm"></textarea></p></div>
+        <p>&nbsp; </p>
+        <p><b>Is there anything you would like to tell us?</b></p>
+        <p>&nbsp;</p>
+        <div><p><textarea name="tellUs" rows="8" cols="75" id="tellUs"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you feel confident enough while performing the experiment?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="confidence" value="Yes" id="confidence" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="confidence" value="No" id="confidence" type="radio"> 
+        No</p></div>
+        <div><p><input name="confidence" value="Can't say" id="confidence" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Was the experiment/process motivating enough?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="expMotivation" value="Yes" id="expMotivation" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="expMotivation" value="No" id="expMotivation" type="radio"> 
+        No</p></div>
+        <div><p><input name="expMotivation" value="Can't say" id="expMotivation" type="radio"> 
+        Can't say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you go through the manual/ step by step procedure before performing the experiments live?</b></p>
+        <p>&nbsp;</p>
+        <div><p><input name="stepmethdExp" value="Yes" id="stepmethdExp" type="radio"> 
+        Yes</p></div>
+        <div><p><input name="stepmethdExp" value="No" id="stepmethdExp" type="radio"> 
+        No</p></div>
+        <p>&nbsp;</p>
+        <p><b>Please answer the following</b></p><br>
+        <div style="width:100%;">
+        <div>
+            <table align="left" border="0">
+                <thead>
+                    <tr>
+                        <td width="40%"></td>
+                        <td width="10%"></td>
+                        <td align="center" width="13%">Yes</td>
+                        <td align="center" width="13%">No</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you get the feel of a real lab while performing the experiments virtually?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="Yes" id="actualLab" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="actualLab" value="No" id="actualLab" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Did you feel the absence of an instructor?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="instructorAbs" value="Yes" id="instructorAbs" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="instructorAbs" value="No" id="instructorAbs" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Could you run the experiments smoothly, i.e., without interruptions?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="Yes" id="withoutInt" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="withoutInt" value="No" id="withoutInt" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you measure and analyse the data successfully?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="analyzeData" value="Yes" id="analyzeData" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="analyzeData" value="No" id="analyzeData" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Did you follow the step by step procedure before doing the live experiment?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="Yes" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="stepmethdBeforeRun" value="No" id="stepmethdBeforeRun" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Could you compare your results with the given typical results?</td>
+                        <td></td>
+                        <td align="center">
+                            <input name="compareRes" value="Yes" id="compareRes" type="radio">
+                        </td>
+                        <td align="center">
+                            <input name="compareRes" value="No" id="compareRes" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color:#E8E8E8;" align="right">Do you think performing experiments through virtual labs were more challenging than the real lab experiments?</td>
+                        <td style="background-color:#E8E8E8;" align="center"></td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="Yes" id="performExp" type="radio">
+                        </td>
+                        <td style="background-color:#E8E8E8;" align="center">
+                            <input name="performExp" value="No" id="performExp" type="radio">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+        </div>
+        <p>&nbsp;</p>
+        <p><b>Specify three problems/difficulties you faced while performing the experiments?</b></p><br>
+        <div><p>
+            <textarea name="threePblms" rows="8" cols="75" id="threePblms"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Describe three interesting things about the experiments.</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <textarea name="threeThings" rows="8" cols="75" id="threeThings"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work?</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <input name="moreScope" value="Yes" id="moreScope" type="radio"> 
+            Yes        </p>
+        <p>
+            <input name="moreScope" value="No" id="moreScope" type="radio"> 
+            No        </p>
+</div></section>
+</div>
+</article>
+</div>
+</body></html>

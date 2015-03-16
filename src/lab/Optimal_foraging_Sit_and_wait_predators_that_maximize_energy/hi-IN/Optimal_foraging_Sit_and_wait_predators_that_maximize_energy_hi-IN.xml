@@ -1,0 +1,125 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Optimal_foraging_Sit_and_wait_predators_that_maximize_energy.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ABUNDANCE_SLDR">
+        <source>Abundance of prey(a)</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ABUNDANCE_SLDR1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_AVG">
+        <source>Average Time</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_CONTROLS">
+        <source>Controls</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CUT_OFF_RADIUS">
+        <source>Cut-off Radius:</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_END_SLDR">
+        <source>End Value:</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_ENERGY_BURNED_SLDR">
+        <source>Energy burned while waiting for the prey, ew </source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_ENERGY_BURNED_SLDR1">
+        <source>Energy burned ( ew)</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_ENERGY_CONTENT_SLDR">
+        <source>Energy content of prey ,e (kCal)</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_ENERGY_CONTENT_SLDR1">
+        <source>Energy content(e)</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_ENG">
+        <source>Energy Gain</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_ENG_BUR_LABEL">
+        <source>Energy burned while predation:  2kCal</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_FLY_SPEED_SLDR">
+        <source>Flying speed of Predator, v (m/s)</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_FLY_SPEED_SLDR1">
+        <source>Flying speed ( v )</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_FRACTION">
+        <source>Fraction</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_MOREVAR">
+        <source>Sliders</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_PLOT_GRAPH">
+        <source>Plot Graph</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_REC">
+        <source>Reciprocal Proportion</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_REC1">
+        <source>Reciprocal Proportion</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_REC2">
+        <source>Average Time</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_REC3">
+        <source>Energy Gain</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_START">
+        <source>Starting Value</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_START_SLDR">
+        <source>Start Value</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_TITLE">
+        <source>Optimal Foraging:Sit and Wait Predators that Maximize Energy </source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TITLE_GRAPH">
+        <source>Reciprocal proportion of waiting time of predator and total abundance of a prey  population</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_TITLE_GRAPH1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_TITLE_GRAPH2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_VELOCITY_SLDR">
+        <source>Velocity, v(m/s)</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_VELOCITY_SLDR1">
+        <source>Velocity(v)</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_XAXIS">
+        <source>Radius of foraging area (in meters)</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_XAXIS2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_YAXIS">
+        <source>Waiting time of predator(in seconds)</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_YAXIS1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_YAXIS2">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

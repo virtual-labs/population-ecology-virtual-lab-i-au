@@ -62,7 +62,7 @@ edit -->
                 <section id="lab-article-section-2">
                     <div class="icon" id="lab-article-section-2-icon">
                     <!-- Enclose the icon image for the section. -->
-                    <img src="images/simulation.jpg"></div>
+                    <img src="lab/images/simulation.jpg"></div>
                     <!-- The heading for the section can be enclosed in a 
         div tag and shown with a <h2> tag -->
 
@@ -75,39 +75,39 @@ edit -->
                         <ul id="list-of-experiments">
                             <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Interspecific_Competition_and_Coexistence">Interspecific Competition and Coexistence</a>
+                                <a href="lab/Interspecific_Competition_and_Coexistence">Interspecific Competition and Coexistence</a>
                             </li>
  			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="conservingEndangeredSpecies">Conserving Endangered Species</a>
+                                <a href="lab/conservingEndangeredSpecies">Conserving Endangered Species</a>
                             </li>
 		            <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Interspecific Competition and Geographic Distributions">Interspecific Competition and Geographic Distributions</a>
+                                <a href="lab/Interspecific Competition and Geographic Distributions">Interspecific Competition and Geographic Distributions</a>
                             </li>
 			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Metapopulation_Dynamics">Metapopulation Dynamics</a>
+                                <a href="lab/Metapopulation_Dynamics">Metapopulation Dynamics</a>
                             </li>
                             <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="OptimalForAging">Optimal For Aging</a>
+                                <a href="lab/OptimalForAging">Optimal For Aging</a>
                             </li>
 			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="OptimalForaging_Pollinators">Optimal For Aging Pollinators</a>
+                                <a href="lab/OptimalForaging_Pollinators">Optimal For Aging Pollinators</a>
                             </li>
 			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Optimal_foraging_Sit_and_wait_predators_that_maximize_energy">Optimal for aging Sit and wait predators that maximize energy</a>
+                                <a href="lab/Optimal_foraging_Sit_and_wait_predators_that_maximize_energy">Optimal for aging Sit and wait predators that maximize energy</a>
                             </li>
 			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Parasitoid_Host_Dynamics">Parasitoid Host Dynamics</a>
+                                <a href="lab/Parasitoid_Host_Dynamics">Parasitoid Host Dynamics</a>
                             </li>
 			    <li>
                                 <!--Link and name of the experiment 1 -->
-                                <a href="Spread_Pest_Population_invasion">Spread Pest Population invasion</a>
+                                <a href="lab/Spread_Pest_Population_invasion">Spread Pest Population invasion</a>
                             </li>
 			</ul>
                     </div>
