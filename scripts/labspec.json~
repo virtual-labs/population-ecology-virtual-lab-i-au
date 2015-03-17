@@ -131,7 +131,7 @@
                 }, 
                 "os": "ubuntu", 
                 "osVersion": "12", 
-                "servicepack": "04", 
+                "servicepack": "", 
                 "storage": {
                     "min_required": "10gb"
                 }
