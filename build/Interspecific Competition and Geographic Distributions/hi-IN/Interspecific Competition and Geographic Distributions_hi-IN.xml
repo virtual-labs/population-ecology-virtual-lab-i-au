@@ -1,0 +1,124 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Interspecific Competition and Geographic Distributions.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ABH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AHB">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_CAPACITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_CAPACITY_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CAPACITY_XAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CAPACITY_YAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CARRYING_CAPACITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_CARRYING_CAPACITY1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_CARRYING_CAPACITY2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_COMPETITION_COEFICIENT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DENSITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DENSITY_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DENSITY_XAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DENSITY_YAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_EASTERN">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EASTERN_BORDER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_END">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_FRACTION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_GRADIENT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_GRAPH_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_MEASUREMENTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_POPULATION_GROWTH1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_POPULATION_GROWTH2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_START">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_VARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_WESTERN">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_WESTERN_BORDER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_WESTERN_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_WESTERN_XAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_WESTERN_YAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_XAXIS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_YAXIS">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
