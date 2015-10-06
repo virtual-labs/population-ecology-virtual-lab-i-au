@@ -1,0 +1,197 @@
+/*
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+*/
+
+
+.tabscontent {
+	padding:0px 0px 0px 0px !important;
+	
+	
+}
+.tabbed {
+	display:block;
+	width:198px;
+	
+}
+#tabHeader_1{
+	width:40px;
+	height:25px;
+}
+#tabHeader_2{	
+	width:40px;
+	height:25px;
+}
+#tabHeader_3{
+	width:40px;
+	height:25px;
+}
+
+.subButton1 {
+	width: 165px;
+	margin: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+.subButton2 {
+	width: 80px;
+	margin: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+table, td, th{ 
+  text-align:center;
+  padding: 5px 0px 0px 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  
+} 
+td{
+
+	border: 1px solid black;
+	width:15px;
+	
+}
+th{
+	border: 1px solid black;
+	color: #000;
+	text-align:center;
+	font-size:15px;
+	
+	
+}
+#alignLeft{
+	text-align:left;
+	padding: 5px 0px 0px 10px;
+}
+#allTable{
+	position:absolute;
+
+}
+#tableTitle{
+	position:absolute;
+	top:10px;
+	left:160px;
+	padding: 5px 0px 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	text-align:center;
+	color: #000;
+	
+}
+#tablePosition{
+	position:absolute;
+	top:40px;
+	left:50px;
+	width:475px;
+	height:400px;
+	overflow:hidden;
+	
+
+}
+.iconPos{
+	position:relative;
+}	
+#canvasBox{
+	overflow:visible!important;
+	
+}
+#r{
+	position:absolute;
+	left:50px;
+	top:445px;
+	visibility:hidden;
+	width:500px;
+}
+#t{
+	position:absolute;
+	left:50px;
+	top:460px;
+	visibility:hidden;
+	width:500px;
+
+}
+#extraspace{
+	position:absolute;
+	left:50px;
+	top:10px;	
+	width:470px;
+	height:410px;	
+}
+#colorchange{
+	background-color:#CCC;
+}
+#colorchg1{
+	cursor:pointer;
+	background-color:#22A7FF;
+}
+#colorchg2{
+	cursor:pointer;
+	background-color:#22A7FF;
+}
+#colorchg3{
+	cursor:pointer;
+	background-color:#22A7FF;
+}
+#colorchg4{
+	cursor:pointer;
+	background-color:#22A7FF;
+}#colorchg5{
+	cursor:pointer;
+	background-color:#22A7FF;
+}
+#dynTable{
+	position:absolute;
+	top:40px;
+	left:30px;
+	width:505px;
+	height:400px;
+	overflow:scroll;
+	visibility:hidden;	
+}
+
+#reset{
+	position: absolute;
+	top:25px;
+	left:32px;
+}
+#wrgMsg{
+	position: absolute;
+	top:40px;
+	left:50px;
+}
+#wrong{
+	position: absolute;
+	top:2px;
+	left:80px;
+}
+#text_wrong{
+	position: absolute;
+	top:25px;
+	left:3px;
+	
+}
+.varTitle1{
+	padding: 5px 0px 5px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333;
+	font-weight:600;
+	text-align: left !important;
+}
+#dynData{
+	position: absolute;
+	left:1px;
+}

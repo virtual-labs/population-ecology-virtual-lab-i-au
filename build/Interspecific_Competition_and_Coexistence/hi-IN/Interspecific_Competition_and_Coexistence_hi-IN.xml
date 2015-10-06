@@ -1,0 +1,77 @@
+
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Interspecific_Competition_and_Coexistence.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CAPTION1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_DATAPLOTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ERROR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_GRAPH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_INITIAL_POPULATION_SPECIES 1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_PAUSE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_PLAY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_POPULATION_FOR_SPECIES_1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_POPULATION_FOR_SPECIES_2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_RATEOFGROWTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_RUN_ONCE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_RUNITERATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_STATISTICS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_STEP_OF_A">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_TIME">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_WORKSHEET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_X_POSITION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_Y_POSITION">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
