@@ -1,0 +1,38 @@
+* Author: Nihanth
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7, Ubuntu-16.04,Centos-6
+  - Browsers: Firefox-42.0,Chrome-47.0,chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GBRAM , 
+  - Processor:i5
+
+* Objective
+  - To simulate the Conserving Endangered Species experiment
+
+* Pre conditions
+  - Refer to first test case [[https://github.com/Virtual-Labs/population-ecology-virtual-lab-i-au/blob/master/test-cases/integration_test-cases/Conserving Endangered Species/Conserving Endangered Species_01_Usability_smk.org][Conserving Endangered Species_01_Usability_smk.org]]
+
+* Post conditions
+  - Nil
+* Test Steps
+  1. Click on the simulation link 
+  2. It should re-direct to the simulation page
+  3. Click on the simulator link 
+  4. A new tab will be opened with simulation proces
+  5. Select the Dall Mountain Sheep option in the field data box and click on create life table and rate of decline buttons
+  6. Select the Song Thrush option in the field data box and click on create life table and rate of decline buttons
+  7. Select The barnacle, Balanus glandula  option in the field data box and click on create life table and rate of decline buttons
+  8. Select the American Robin option in the field data box and click on create life table and rate of decline buttons
+  9. Select the User defined sample option in the field data box and click on add row and delete row and give the valid inputs to the fields and then click on the create life table and rate of decline buttons
+  10. click on the reset button
+
+* Expected result
+  1. Simulation page should be opened
+  2. A simulator link should be present
+  3. Content should be present with no distortions and Junk charactersthe 
+  4. It should redirect to the intial page
+
+* Review/comments
+
+
