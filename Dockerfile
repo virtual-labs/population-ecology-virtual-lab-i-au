@@ -10,7 +10,7 @@ MAINTAINER vlead-systems "systems@vlabs.ac.in"
 # Usage: Updating system
 RUN apt-get update
 
-# Usage: Installing dependencies for computer graphics lab
+# Usage: Installing dependencies for population ecology virtual lab I
 RUN apt-get install -y make rsync php5 apache2 wget
 
 RUN mkdir /population-ecology-virtual-lab-i-au
