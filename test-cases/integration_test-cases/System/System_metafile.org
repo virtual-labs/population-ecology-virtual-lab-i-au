@@ -1,3 +1,0 @@
-S.no		Test case link
-1. 	[[https://github.com/Virtual-Labs/population-ecology-virtual-lab-i-au/blob/master/test-cases/integration_test-cases/System/Population%20Ecology%20Virtual%20Lab%20I_01_Usability_smk.org][Population Ecology Virtual Lab I_01_Usability_smk.org]]
-2. 	[[https://github.com/Virtual-Labs/population-ecology-virtual-lab-i-au/blob/master/test-cases/integration_test-cases/System/Population%20Ecology%20Virtual%20Lab%20I_02_List%20of%20Experiments_smk.org][Population Ecology Virtual Lab I_02_List of Experiments_smk.org]]
