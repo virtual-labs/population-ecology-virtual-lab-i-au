@@ -51,13 +51,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "praveens@am.amrita.edu", 
+                        "email": "anishasl@am.amrita.edu", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "CREATE", 
                     "institute": "Amrita University", 
-                    "name": "Praveen S", 
+                    "name": "Anisha S L", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -95,11 +95,11 @@
                 }
             ], 
             "discipline": [
-                "Biotechnology and Biomedical Engineering"
+                "Physical Science"
             ], 
-            "id": "poe", 
-            "integration_level": 5, 
-            "name": "Population ecology Virtual Lab I", 
+            "id": "emm", 
+            "integration_level": 6, 
+            "name": "Electricity & Magnetism Virtual Lab", 
             "server-side": true, 
             "status": "Released", 
             "type": ""

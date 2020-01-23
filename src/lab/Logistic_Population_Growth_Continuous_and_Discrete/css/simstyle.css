@@ -1,0 +1,71 @@
+/**
+	*Description:This is for put style on tabs
+	*Color Reference:
+	*very soft red: #eabeb4
+	*light gray: #f8f8f8
+	*dark gray: ##626262	
+*/
+
+/** The following are used for canvas */
+
+#speciesCanvas {
+	border:#eabeb4 solid 1px;
+	background-color:#f8f8f8;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin:10px 0px 0px 15px;
+}
+
+#tinyGraphArea {
+	display:none;
+	position:absolute;
+	width:96.1%;
+	height:96%;
+	top:1.2%;
+	left:1.7%;
+	padding:0px;
+	background-color:#f8f8f8;
+	border:#eabeb4 solid 1px;
+	opacity:1;
+}
+
+/** The following are for controls */
+
+.submitBtns {
+	width:48%;
+	margin:7px 0px 0px 3px;
+}
+
+#goStep {
+	margin:11px 27px 0px 8px;
+	width:26%;
+}
+
+#tabHeader_1 {
+	height:18px;
+	width: 79px;
+}
+
+.title {
+	padding:4px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:600;
+	color:#626262;
+	text-align:left !important;
+}
+
+.box {
+	padding:0px 24px 0px 2px;
+	text-align:center;
+	width:176px;
+	margin-top: 18px;
+}
+
+.textField {
+	width:65%;
+	font-size:12px;
+	margin-left:6px;
+	float:right;
+}

@@ -1,0 +1,220 @@
+/**
+	*Description:This is for put style on canvas contents and controls
+	*Color Reference:
+	*very soft red: #eabeb4
+	*light gray: #f8f8f8
+	*dark gray: #6e6e6e	
+*/
+
+/** The following are used for canvas */
+
+#speciesCanvas {
+	border:#eabeb4 solid 1px;
+	background-color:#f8f8f8;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin:10px 0px 0px 15px;
+}
+
+#statImg,
+#dataImg,
+#worksheetImg {
+	width:100%;
+  	height:100%;
+}
+
+#stat_txt {
+	width:100%;
+	height:100%;
+	margin-top:-19%;
+	font-size:92%;
+	text-align:center;
+	margin-left:10%;
+	cursor:pointer;
+}
+
+#data_txt {
+	width:100%;
+	height:100%;
+	margin-top:-19%;
+	font-size:92%;
+	text-align:center;
+	margin-left:10%;
+	cursor:pointer;
+}
+
+#worksheet_txt {
+	width:100%;
+	height:100%;
+	margin-top:-19%;
+	font-size:92%;
+	text-align:center;
+	margin-left:10%;
+	cursor:pointer;
+}
+
+#Statistics {
+	position:absolute;
+	width:28%;
+	height:77%;
+	top:10%;
+	left:4%;
+	cursor:pointer;
+	cursor:hand;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:center;
+	background:url(../images/statisticsIcon.png) no-repeat;
+	border-radius:7px;
+}
+
+#dataPlots {
+	position:absolute;
+	width:28%;
+	height:77%;
+	top:10%;
+	left:38%;
+	cursor:pointer;
+	cursor:hand;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:center;
+	background:url(../images/dataPlotIcon.png) no-repeat;
+	border-radius:7px;
+}
+
+#workSheets {
+	position:absolute;
+	width:28%;
+	height:77%;
+	top:10%;
+	left:72%;
+	cursor:pointer;
+	cursor:hand;
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:bottom;
+	background:url(../images/worksheetIcon.png) 4px 10px no-repeat;
+	border-radius:7px;
+}
+
+#statLabel {
+	position:absolute;
+	background-color:#fef9f9;
+	margin:27px 0px 0px 35px;
+	border:#eabeb4 solid 1px; 
+	z-index:1; 
+	width:48%;
+	height:18%;
+	opacity:0.9;
+	filter:alpha(opacity=60);
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	border-radius:7px;
+}
+
+#triButton {
+	position:absolute;
+	top:90%;
+	width:91%;
+	height:9%;
+	margin-left:3%;
+}
+
+#workSheet {
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding:28%;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	border-radius:7px;
+	background-color:white;
+}
+
+#workParagraph {
+	position:absolute;
+	margin:0px 0px 0px 40px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	border-radius:7px;
+	background-color:white;
+}
+
+#tinyGraphArea {
+	display:none;
+	position:absolute;
+	width:96.1%;
+	height:87%;
+	top:1.2%;
+	left:1.7%;
+	padding:0px;
+	background-color:#f8f8f8;
+	border:#eabeb4 solid 1px;
+	opacity:1;
+}
+
+#statButton {
+	position:absolute;
+	height:63%;
+	width:19%;
+	background-repeat:no-repeat;
+}
+
+#population {
+	background-color:white;
+	float:right;
+}
+
+.Label {
+	text-align:left !important;
+	font-size:159%;
+	font-weight:bold 80%;
+	margin:10px 0px 0px 5px;
+}
+
+/** The following are for controls */
+
+.submitBtns {
+	width: 52%;
+    margin: 7px 0px 0px -2px;
+}
+
+#goStep {
+	margin:11px 27px 0px 8px;
+	width:26%;
+}
+
+#tabHeader_1 {
+	height:18px;
+	width: 83px;
+}
+
+.title {
+	  margin-left:-1px;
+}
+
+.box {
+	padding:1px 2px 0px 11px;
+	text-align:center;
+}
+
+.textField {
+	width:65%;
+	font-size:12px;
+	margin-left:6px;
+	float:right;
+}
